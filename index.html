@@ -109,6 +109,58 @@
       text-align: center; font-size: 0.78rem; color: #b0998a;
       margin-bottom: 6px;
     }
+
+    .insights-box {
+      background: linear-gradient(135deg, #fff8f3, #fff);
+      border: 2px solid #e8d5c4;
+      border-radius: 16px;
+      padding: 24px 28px;
+      margin-bottom: 32px;
+    }
+
+    .insights-box h2 {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #5a3e2b;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .insights-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .insights-list li {
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+      font-size: 0.88rem;
+      line-height: 1.6;
+      color: #3a2a1e;
+    }
+
+    .insights-list li::before {
+      content: "▸";
+      color: #c47a3a;
+      font-size: 0.9rem;
+      flex-shrink: 0;
+      margin-top: 1px;
+    }
+
+    .insights-list a {
+      color: #c47a3a;
+      text-decoration: none;
+      font-size: 0.78rem;
+      margin-left: 6px;
+      white-space: nowrap;
+    }
+
+    .insights-list a:hover { text-decoration: underline; }
   </style>
 </head>
 <body>
@@ -125,6 +177,12 @@
 
 <div class="main">
   <div id="update-info" class="update-info"></div>
+
+  <div class="insights-box" id="insights-box" style="display:none">
+    <h2>💡 今天可以學習到的休閒遊戲市場新知</h2>
+    <ul class="insights-list" id="insights-list"></ul>
+  </div>
+
   <div id="status-bar"></div>
 
   <div class="source-filter" id="filter-bar">
@@ -196,6 +254,16 @@ function filterSource(id, btn) {
   renderAll();
 }
 
+function buildInsights(data, insights) {
+  const box = document.getElementById('insights-box');
+  const list = document.getElementById('insights-list');
+
+  if (!insights || insights.length === 0) return;
+
+  list.innerHTML = insights.map(point => `<li>${point}</li>`).join('');
+  box.style.display = 'block';
+}
+
 function buildFilterBar(sources) {
   const bar = document.getElementById('filter-bar');
   bar.innerHTML = `<button class="filter-btn active" onclick="filterSource('all', this)">全部</button>`;
@@ -220,6 +288,7 @@ async function loadData() {
     }
 
     buildFilterBar(allData);
+    buildInsights(allData, json.insights || []);
     renderAll();
   } catch(e) {
     document.getElementById('content').innerHTML =
