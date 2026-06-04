@@ -1,103 +1,182 @@
 {
-  "updated": "2026-06-05T12:22:04Z",
-  "sources": [
-    {
-      "source": {
-        "id": "bahamut",
-        "name": "巴哈姆特 GNN",
-        "color": "#8e44ad",
-        "url": "https://gnn.gamer.com.tw/rss.xml"
-      },
-      "items": [
-        {
-          "title": "免費 MMORPG《符文守衛 Online》公開 在像素世界中打造專屬流派",
-          "link": "https://gnn.gamer.com.tw/detail.php?sn=306161",
-          "date": "Fri, 05 Jun 2026 20:05:21 +0800",
-          "desc": "開發商 FatHatCat 宣布，旗下新款 MMORPG《符文守衛 Online（暫譯，原名：Runeward Online）》在公開後的 72 小時內，Steam 願望清單數量便已突破 16,000 人次。玩家將可扮演符文之地探險者，和朋友一起在滿是怪物和彈幕的像素世界中冒險。\n\n&nbsp;\n\n\n\n\n\n\n\n...."
-        },
-        {
-          "title": "SEGA 舉辦 Steam「RGG Studio 特賣」 《人中之龍 8》提供 2.5 折",
-          "link": "https://gnn.gamer.com.tw/detail.php?sn=306160",
-          "date": "Fri, 05 Jun 2026 19:38:58 +0800",
-          "desc": "世雅股份有限公司宣布，於 Steam 平台販售舉辦「RGG Studio 特賣」，包含《人中之龍》系列在內的 SEGA 遊戲作品限時特賣中，其中《人中之龍 8 外傳 夏威夷海盜》與《人中之龍 8》提供 2.5 折。\n\n\n&nbsp;\n\n\n【以下內容為廠商提供資料原文】\n\n\n\n&nbsp;\n\n\n\n\n\n\n\n&amp;nbs...."
-        },
-        {
-          "title": "極速 PC 組裝 x 電競模擬器改裝大賽於 COMPUTEX 登場 全球代表人物同場較勁",
-          "link": "https://gnn.gamer.com.tw/detail.php?sn=306159",
-          "date": "Fri, 05 Jun 2026 19:32:06 +0800",
-          "desc": "迎來 25 週年的 Newegg（台灣新蛋）今年攜手 MSI 微星科技、Thermaltake 曜越科技，與 TAITRA 中華民國對外貿易發展協會在 COMPUTEX 舉辦「2026 PC BUILDER：極速 PC 組裝 x 電競模擬器改裝」，本次新增電競模擬器改裝表演賽，邀請來自美國、泰國的電競模擬器改裝知...."
-        }
-      ],
-      "ok": true
-    },
-    {
-      "source": {
-        "id": "pocketgamer",
-        "name": "Pocket Gamer Biz",
-        "color": "#2980b9",
-        "url": "https://www.pocketgamer.biz/feed/"
-      },
-      "items": [],
-      "ok": true
-    },
-    {
-      "source": {
-        "id": "dof",
-        "name": "Deconstructor of Fun",
-        "color": "#27ae60",
-        "url": "https://www.deconstructoroffun.com/blog?format=rss"
-      },
-      "items": [
-        {
-          "title": "Where Asia’s $103 Billion Game Market Is Actually Growing",
-          "link": "https://www.deconstructoroffun.com/blog/where-asias-103-billion-game-market-is-actually-growing",
-          "date": "Mon, 01 Jun 2026 10:42:00 +0000",
-          "desc": "Jen Donahoe's five takeaways from Niko Partners’ 2026 Market Model."
-        },
-        {
-          "title": "Nobody Told You This About Consulting",
-          "link": "https://www.deconstructoroffun.com/blog/nobody-told-you-this-about-consulting",
-          "date": "Mon, 25 May 2026 11:12:49 +0000",
-          "desc": "Why thousands of game industry veterans are turning to consulting"
-        },
-        {
-          "title": "Golden Mechanics: Airbuds",
-          "link": "https://www.deconstructoroffun.com/blog/golden-mechanics-airbuds",
-          "date": "Mon, 18 May 2026 12:25:23 +0000",
-          "desc": "This music app learned three tricks from top grossing mobile games."
-        }
-      ],
-      "ok": true
-    },
-    {
-      "source": {
-        "id": "naavik",
-        "name": "Naavik",
-        "color": "#d35400",
-        "url": "https://naavik.co/feed/"
-      },
-      "items": [
-        {
-          "title": "Keeping Players Playing",
-          "link": "https://naavik.co/podcast/keeping-players-playing/",
-          "date": "Tue, 02 Jun 2026 11:30:00 +0000",
-          "desc": "Keeping players playing is getting harder as player attention fragments and expectations rise, so understanding churn has become a core live-ops competency. Host Devin Becker sits down with&#160;Elad "
-        },
-        {
-          "title": "Dissecting Scopely’s Mobile Empire in 2026",
-          "link": "https://naavik.co/digest/dissecting-scopelys-mobile-empire/",
-          "date": "Sun, 31 May 2026 17:30:00 +0000",
-          "desc": "Last month we mapped Scopely's path to $15B in lifetime revenue under Saudi Arabia's Savvy Games Group. Three years after Savvy's $4.9B Scopely acquisition and one year past the $3.5B Niantic deal, th"
-        },
-        {
-          "title": "True Crime, Now Playable: Inside Scriptic’s Cross-Platform Bet",
-          "link": "https://naavik.co/podcast/true-crime-now-playable-inside-scriptics-cross-platform-bet/",
-          "date": "Tue, 26 May 2026 11:30:00 +0000",
-          "desc": "Kalie Moore sits down with James Nicholls, Studio Director at Scriptic, to explore one of the most fascinating intersections emerging in entertainment today: true crime, interactive storytelling, stre"
-        }
-      ],
-      "ok": true
-    }
-  ],
-  "insights": []
+    "sources":  [
+                    {
+                        "ok":  true,
+                        "source":  {
+                                       "color":  "#e74c3c",
+                                       "url":  "http://www.gamelook.com.cn/feed",
+                                       "name":  "GameLook",
+                                       "id":  "gamelook"
+                                   },
+                        "items":  [
+                                      {
+                                          "date":  "Thu, 04 Jun 2026 06:38:53 +0000",
+                                          "title":  "前《魔兽世界》首席战斗设计师加盟拳头，《英雄联盟》MMO半年内连揽两位暴雪老将",
+                                          "link":  "http://www.gamelook.com.cn/2026/06/594758/",
+                                          "desc":  "【GameLook专稿，禁止转载！】 GameLook报道/6月1日，前《魔兽世界》首席战斗设计师Brian \u0026#8220;Swolinka\u0026#8221; Holinka通过领英确..."
+                                      },
+                                      {
+                                          "date":  "Thu, 04 Jun 2026 06:34:24 +0000",
+                                          "title":  "《潜水员戴夫》前传发布，人气角色班乔离开蓝洞踏上厨神之旅",
+                                          "link":  "http://www.gamelook.com.cn/2026/06/594751/",
+                                          "desc":  "【GameLook专稿，禁止转载！】 GameLook报道/6月3日，索尼PlayStation举行了年中State of Play发布会，《潜水员戴夫》开发商Mintrocket..."
+                                      },
+                                      {
+                                          "date":  "Thu, 04 Jun 2026 02:16:32 +0000",
+                                          "title":  "各路神仙都在等，那个《诡秘之主》游戏如今咋样了？",
+                                          "link":  "http://www.gamelook.com.cn/2026/06/594685/",
+                                          "desc":  "【GameLook专稿，禁止转载！】 GameLook报道/最近，由快手旗下弹指宇宙研发的《诡秘之主》开启了二测招募。这也是一月份游戏官方发布实机PV，展现了游戏中的“廷根市”以后..."
+                                      }
+                                  ]
+                    },
+                    {
+                        "ok":  true,
+                        "source":  {
+                                       "color":  "#8e44ad",
+                                       "url":  "https://gnn.gamer.com.tw/rss.xml",
+                                       "name":  "巴哈姆特 GNN",
+                                       "id":  "bahamut"
+                                   },
+                        "items":  [
+                                      {
+                                          "date":  "Thu, 04 Jun 2026 19:11:05 +0800",
+                                          "title":  "å½å¹å°ææ°ä½ãææ å¥ç´ æ³¢å¥å¤¢ãå»¶é· Playtest æ¸¬è©¦æé åè Steam å½å¹ç¯",
+                                          "link":  "https://gnn.gamer.com.tw/detail.php?sn=306078",
+                                          "desc":  "ããå°ç£éæ²ç¼è¡åèææ´¾å°å®£å¸ï¼æä¸æªä¸å¸æ°ä½ãææ å¥ç´ æ³¢å¥å¤¢ãå°åè 6 æ 9 æ¥è³16 æ¥èè¾¦ç Steam å½å¹ç¯ï¼ä¸¦å°å»¶é· Playtest ç"
+                                      },
+                                      {
+                                          "date":  "Thu, 04 Jun 2026 19:09:38 +0800",
+                                          "title":  "ãæ­¦æç¾¤ä¿ å³ä¹èç©ºè«åãxãåé£å¤©å°ä¸ãåä½æ°ä¼ºæå¨é å® 6 æ 6 æ¥ç»å ´",
+                                          "link":  "https://gnn.gamer.com.tw/detail.php?sn=306077",
+                                          "desc":  "ããä¸­è¯ç¶²é¾å®£å¸ï¼æä¸ç·ä¸æ­¦ä¿ éæ²ãæ­¦æç¾¤ä¿ å³ä¹èç©ºè«åãæ°ä¼ºæå¨ãåé£å±±æ²³ãå°æ¼ 6 æ 6 æ¥ä¸å 9:30 æ­£å¼éæ¾ï¼æ¬æ¬¡ä¼ºæå¨ã"
+                                      },
+                                      {
+                                          "date":  "Thu, 04 Jun 2026 18:49:39 +0800",
+                                          "title":  "ãå¤æ¥å½¼æ¹ãä½è\u0085æ°ä½ãéç©æ¥è¡åè» 909 èæ¿ãæå¹´ä¸å¸ å¨ä¸æ·è®åè¼ªè¿´ä¸­ç ´è§£è»å»ä¹è¬",
+                                          "link":  "https://gnn.gamer.com.tw/detail.php?sn=306076",
+                                          "desc":  "ãããå¤æ¥å½¼æ¹ï¼ãããã«ãã¿ï¼èæ«è­¯ï¼å¤ä¹å½¼æ¹ï¼ãéæ²éç¼è\u0085 Kazuhide OkaãSTUDIO 909 ä»æ¥å®£å¸ï¼æä¸æ°ä½ãéç©æ¥è¡åè» 909 èæ¿ï¼Q"
+                                      }
+                                  ]
+                    },
+                    {
+                        "ok":  true,
+                        "source":  {
+                                       "color":  "#2980b9",
+                                       "url":  "https://www.pocketgamer.biz/rss/",
+                                       "name":  "Pocket Gamer Biz",
+                                       "id":  "pocketgamer"
+                                   },
+                        "items":  [
+                                      {
+                                          "date":  "Thu, 04 Jun 2026 11:36:00 +0100",
+                                          "title":  "Team17 confirms layoffs in marketing and communications team",
+                                          "link":  "https://www.pocketgamer.biz/team17-confirms-layoffs-in-marketing-and-communications-team/",
+                                          "desc":  "UK games company Team17 has confirmed layoffs within its marketing and communications department following a review of its business operations.\n\nAs reported by GameDeveloper, the c"
+                                      },
+                                      {
+                                          "date":  "Thu, 04 Jun 2026 10:47:00 +0100",
+                                          "title":  "Mexican Football Federation launches FIFA Super Soccer activation on Roblox ahead of World Cup 2026",
+                                          "link":  "https://www.pocketgamer.biz/mexican-football-federation-launches-fifa-super-soccer-activation-on-roblox-ahead-of-world-cup-2026/",
+                                          "desc":  "The Mexican Football Federation (FMF) has launched a limited-time event for the Mexican National Team in Gamefam\u0026rsquo;s Roblox title FIFA Super Soccer.\n\nThe move comes as the coun"
+                                      },
+                                      {
+                                          "date":  "Thu, 04 Jun 2026 10:28:00 +0100",
+                                          "title":  "Warner Bros. Games launches Game of Thrones: Dragonfire worldwide on mobile",
+                                          "link":  "https://www.pocketgamer.biz/warner-bros-games-launches-game-of-thrones-dragonfire-worldwide-on-mobile/",
+                                          "desc":  "Warner Bros. Games and HBO have launched Game of Thrones: Dragonfire, a free-to-play mobile strategy game based on House of the Dragon. \n\nThe game is now available on iOS and Andro"
+                                      }
+                                  ]
+                    },
+                    {
+                        "ok":  true,
+                        "source":  {
+                                       "color":  "#16a085",
+                                       "url":  "https://mobilegamer.biz/feed/",
+                                       "name":  "MobileGamer.biz",
+                                       "id":  "mobilegamer"
+                                   },
+                        "items":  [
+                                      {
+                                          "date":  "Thu, 04 Jun 2026 09:17:51 +0000",
+                                          "title":  "Liftoff’s IPO is back on – and values the adtech firm at $3.83bn",
+                                          "link":  "https://mobilegamer.biz/liftoffs-437m-ipo-is-on-valuing-the-adtech-firm-at-3-83bn/",
+                                          "desc":  "The performance marketing and monetisation firm has offered 19m shares of common stock at $23 per share, raising $437m at the second time of asking."
+                                      },
+                                      {
+                                          "date":  "Wed, 03 Jun 2026 15:14:14 +0000",
+                                          "title":  "Supercell, King and Sybo bosses hit out at “scary” EU proposals",
+                                          "link":  "https://mobilegamer.biz/supercell-king-and-sybo-bosses-hit-out-at-scary-eu-proposals/",
+                                          "desc":  "Ilkka Paananen, Todd Green and Mathias Gredal Nørvig told the Financial Times that incoming EU proposals could make free to play games “unplayable in Europe”."
+                                      },
+                                      {
+                                          "date":  "Wed, 03 Jun 2026 12:09:52 +0000",
+                                          "title":  "Data digest: King’s €6bn EU report, Playstack sold, more UA finance, April’s top games, more",
+                                          "link":  "https://mobilegamer.biz/data-digest-kings-6bn-eu-report-playstack-sold-more-ua-finance-aprils-top-games-more/",
+                                          "desc":  "There\u0027s also big Golf Rival and NetEase numbers, new games coming to China, Hoyoverse\u0027s big AI investment and a new game engine in this week\u0027s round-up."
+                                      }
+                                  ]
+                    },
+                    {
+                        "ok":  true,
+                        "source":  {
+                                       "color":  "#27ae60",
+                                       "url":  "https://www.deconstructoroffun.com/blog?format=rss",
+                                       "name":  "Deconstructor of Fun",
+                                       "id":  "dof"
+                                   },
+                        "items":  [
+                                      {
+                                          "date":  "Mon, 01 Jun 2026 10:42:00 +0000",
+                                          "title":  "Where Asia’s $103 Billion Game Market Is Actually Growing",
+                                          "link":  "https://www.deconstructoroffun.com/blog/where-asias-103-billion-game-market-is-actually-growing",
+                                          "desc":  "Jen Donahoe\u0027s five takeaways from Niko Partners’ 2026 Market Model."
+                                      },
+                                      {
+                                          "date":  "Mon, 25 May 2026 11:12:49 +0000",
+                                          "title":  "Nobody Told You This About Consulting",
+                                          "link":  "https://www.deconstructoroffun.com/blog/nobody-told-you-this-about-consulting",
+                                          "desc":  "Why thousands of game industry veterans are turning to consulting"
+                                      },
+                                      {
+                                          "date":  "Mon, 18 May 2026 12:25:23 +0000",
+                                          "title":  "Golden Mechanics: Airbuds",
+                                          "link":  "https://www.deconstructoroffun.com/blog/golden-mechanics-airbuds",
+                                          "desc":  "This music app learned three tricks from top grossing mobile games."
+                                      }
+                                  ]
+                    },
+                    {
+                        "ok":  true,
+                        "source":  {
+                                       "color":  "#d35400",
+                                       "url":  "https://naavik.co/feed/",
+                                       "name":  "Naavik",
+                                       "id":  "naavik"
+                                   },
+                        "items":  [
+                                      {
+                                          "date":  "Tue, 02 Jun 2026 11:30:00 +0000",
+                                          "title":  "Keeping Players Playing",
+                                          "link":  "https://naavik.co/podcast/keeping-players-playing/",
+                                          "desc":  "Keeping players playing is getting harder as player attention fragments and expectations rise, so understanding churn has become a core live-ops competency. Host Devin Becker sits "
+                                      },
+                                      {
+                                          "date":  "Sun, 31 May 2026 17:30:00 +0000",
+                                          "title":  "Dissecting Scopely’s Mobile Empire in 2026",
+                                          "link":  "https://naavik.co/digest/dissecting-scopelys-mobile-empire/",
+                                          "desc":  "Last month we mapped Scopely\u0027s path to $15B in lifetime revenue under Saudi Arabia\u0027s Savvy Games Group. Three years after Savvy\u0027s $4.9B Scopely acquisition and one year past the $3"
+                                      },
+                                      {
+                                          "date":  "Tue, 26 May 2026 11:30:00 +0000",
+                                          "title":  "True Crime, Now Playable: Inside Scriptic’s Cross-Platform Bet",
+                                          "link":  "https://naavik.co/podcast/true-crime-now-playable-inside-scriptics-cross-platform-bet/",
+                                          "desc":  "Kalie Moore sits down with James Nicholls, Studio Director at Scriptic, to explore one of the most fascinating intersections emerging in entertainment today: true crime, interactiv"
+                                      }
+                                  ]
+                    }
+                ],
+    "insights":  [
+
+                 ],
+    "updated":  "2026-06-04T11:15:22Z"
 }
