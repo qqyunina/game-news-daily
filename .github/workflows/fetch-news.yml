@@ -2,15 +2,15 @@ name: Fetch Game News
 
 on:
   schedule:
-    - cron: '0 1 * * *'  # 每天 09:00 台灣時間（UTC+8）
-  workflow_dispatch:       # 允許手動觸發
+    - cron: '0 1 * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
-  
-  jobs:
-    fetch:
-      runs-on: ubuntu-latest
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
