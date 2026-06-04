@@ -1,12 +1,12 @@
 {
-  "updated": "2026-06-04T07:07:12Z",
+  "updated": "2026-06-04T07:26:59Z",
   "sources": [
     {
       "source": {
         "id": "gamelook",
         "name": "GameLook",
         "color": "#e74c3c",
-        "url": "https://www.gamelook.com.cn/feed"
+        "url": "https://www.gamelook.com.cn/?feed=rss2"
       },
       "items": [],
       "ok": true
