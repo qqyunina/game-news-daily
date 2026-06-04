@@ -1,6 +1,7 @@
 import feedparser
 import json
 import datetime
+import urllib.request
 
 SOURCES = [
     {"id": "gamelook", "name": "GameLook", "color": "#e74c3c", "url": "https://www.gamelook.com.cn/?feed=rss2"},
@@ -11,17 +12,34 @@ SOURCES = [
     {"id": "shouyoux", "name": "手遊那點事", "color": "#16a085", "url": "http://www.shouyoux.com/feed"},
 ]
 
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "Accept": "application/rss+xml, application/xml, text/xml, */*",
+    "Accept-Language": "zh-TW,zh;q=0.9,en;q=0.8",
+    "Referer": "https://www.google.com/",
+}
+
 def strip_tags(text):
     import re
     if not text:
         return ""
     return re.sub(r'<[^>]+>', '', text).strip()
 
+def fetch_feed(url):
+    try:
+        req = urllib.request.Request(url, headers=HEADERS)
+        with urllib.request.urlopen(req, timeout=15) as response:
+            content = response.read()
+        feed = feedparser.parse(content)
+        return feed
+    except Exception:
+        return feedparser.parse(url)
+
 results = []
 
 for source in SOURCES:
     try:
-        feed = feedparser.parse(source["url"])
+        feed = fetch_feed(source["url"])
         items = []
         for entry in feed.entries[:8]:
             pub = entry.get("published", entry.get("updated", ""))
