@@ -3,7 +3,7 @@ import json
 import datetime
 
 SOURCES = [
-    {"id": "gamelook", "name": "GameLook", "color": "#e74c3c", "url": "https://www.gamelook.com.cn/feed"},
+    {"id": "gamelook", "name": "GameLook", "color": "#e74c3c", "url": "https://www.gamelook.com.cn/?feed=rss2"},
     {"id": "bahamut", "name": "巴哈姆特 GNN", "color": "#8e44ad", "url": "https://gnn.gamer.com.tw/rss.xml"},
     {"id": "pocketgamer", "name": "Pocket Gamer Biz", "color": "#2980b9", "url": "https://www.pocketgamer.biz/feed/"},
     {"id": "dof", "name": "Deconstructor of Fun", "color": "#27ae60", "url": "https://www.deconstructoroffun.com/blog?format=rss"},
