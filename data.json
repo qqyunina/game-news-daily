@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-04T07:38:01Z",
+  "updated": "2026-06-04T07:39:48Z",
   "sources": [
     {
       "source": {
@@ -16,9 +16,58 @@
         "id": "bahamut",
         "name": "巴哈姆特 GNN",
         "color": "#8e44ad",
-        "url": "https://rsshub.app/gamer/gnn"
+        "url": "https://gnn.gamer.com.tw/rss.xml"
       },
-      "items": [],
+      "items": [
+        {
+          "title": "《自動人偶之旅》今日上市　化身 hololive 塞西莉亞·伊默格林踏上喚醒同伴的冒險旅程",
+          "link": "https://gnn.gamer.com.tw/detail.php?sn=306047",
+          "date": "Thu, 04 Jun 2026 15:06:49 +0800",
+          "desc": "Cover 旗下經營 hololive 創作遊戲品牌「holo Indie」的 CCMC 今（4）日宣布，由 Xyros Games 開發、以 hololive English 成員塞西莉亞&middot;伊默格林為主角的 2D 動作遊戲《自動人偶之旅（暫譯，An Automaton's Journey...."
+        },
+        {
+          "title": "《古墓奇兵：亞特蘭提斯遺跡》Steam 頁面出現「AI 生成內容聲明」 開發團隊對此回應",
+          "link": "https://gnn.gamer.com.tw/detail.php?sn=306046",
+          "date": "Thu, 04 Jun 2026 14:46:51 +0800",
+          "desc": "《古墓奇兵（Tomb Raider）》系列的重製作品《古墓奇兵：亞特蘭提斯遺跡（Tomb Raider: Legacy of Atlantist）》在昨日的 State of Play 線上發表會中正式揭曉後，其 Steam 頁面上顯示的「AI 生成內容聲明」引發關注，遊戲開發商 Crystal Dynamic...."
+        },
+        {
+          "title": "《鐳明閃擊》全新模組版本「暗湧協議」上線 雙面修女維蕾塔、心智災厄涅若特雙 SSR 全新卡池來襲",
+          "link": "https://gnn.gamer.com.tw/detail.php?sn=306045",
+          "date": "Thu, 04 Jun 2026 14:39:49 +0800",
+          "desc": "《鐳明閃擊》開啟全新模組版本「暗湧協議」，兩位風格迥異卻同樣暗藏危機的限定 SSR 角色 &mdash;&mdash; 雙面修女維蕾塔、心智災厄囚徒涅若特開啟雙 SSR 限定 UP 卡池，黑聖女互動專屬造型同步實裝。\n\n\n&nbsp;\n\n\n\n\n\n&nbsp;\n\n【以下內容為廠商提供資料原文】\n\n&nbsp;\n\n...."
+        },
+        {
+          "title": "《電影哆啦A夢：新‧大雄的海底鬼岩城》宣布 7 月 10 日國語、日語版本全台上映",
+          "link": "https://gnn.gamer.com.tw/detail.php?sn=306044",
+          "date": "Thu, 04 Jun 2026 14:38:22 +0800",
+          "desc": "《哆啦A夢》最新電影作品《電影哆啦A夢：新‧大雄的海底鬼岩城》，官方宣布將於 7 月 10 日在台灣上映的消息，今日也正式公布台灣版定檔預告。\n\n&nbsp;\n\n\n\n\n\n\n\n&nbsp;\n\n　　大雄與朋友們對於暑假的露營地點意見不一，最後他們決定採納哆啦A夢的建議，前往大海中央露營。借助秘密道具「海底車」和「適...."
+        },
+        {
+          "title": "打爆巨型拉麵怪！怪獸對戰新作《夢幻隊超級至尊 Dream Team Supreme》開放試玩",
+          "link": "https://gnn.gamer.com.tw/detail.php?sn=306043",
+          "date": "Thu, 04 Jun 2026 14:31:50 +0800",
+          "desc": "遊戲研發團隊 Big Adventure 今日在 Shacknews E4 Showcase 線上發表會中，首度公開主打「合作怪獸戰鬥」Roguelike 戰鬥遊戲《夢幻隊超級至尊（暫譯，Dream Team Supreme）》，展示遊戲巨型怪物與卡牌連鎖組合，同時在 Steam 平台開放試玩。\n\n&nbsp;...."
+        },
+        {
+          "title": "《Another Eden：穿越時空的貓》追加外史「幻靈之劍與暗溟的殘光」 新夥伴「赫沃珂」同步登場",
+          "link": "https://gnn.gamer.com.tw/detail.php?sn=306042",
+          "date": "Thu, 04 Jun 2026 14:29:30 +0800",
+          "desc": "超時空冒險 RPG《Another Eden：穿越時空的貓》（Steam / App Store / Google Play）於 2026 年 6 月 4 日發布 Ver 3.15.50 更新。本次更新除追加外史「望鄉之魂與逆星旅行者」第 2 波「幻靈之劍與暗溟的殘光」，還有新的夥伴「赫沃珂（CV: 諸星すみれ...."
+        },
+        {
+          "title": "《瓦爾哈拉 生存》舉辦上市 500 日紀念活動",
+          "link": "https://gnn.gamer.com.tw/detail.php?sn=306041",
+          "date": "Thu, 04 Jun 2026 14:26:00 +0800",
+          "desc": "LIONHEART STUDIO（董事長 Kim Jae-Young）於今日宣布，旗下研發並營運的動作 Roguelike 手機遊戲《瓦爾哈拉 生存》為迎接上市 500 日，現已展開多項活動。\n\n\n&nbsp;\n\n\n\n\n\n\n\n&nbsp;\n\n\n【以下內容為廠商提供資料原文】\n\n\n&nbsp;\n\n　　首先，作為上...."
+        },
+        {
+          "title": "競技場 1v1 策略新作《無限：六角穹頂戰術》6 月開放免費體驗 PvP 模式 預計今秋上市",
+          "link": "https://gnn.gamer.com.tw/detail.php?sn=306040",
+          "date": "Thu, 04 Jun 2026 13:00:01 +0800",
+          "desc": "獨立遊戲開發商 Blindspot Games 今（4）日宣布，旗下新作《無限：六角穹頂戰術（Infinity: HexaDome Tactics）》將於今年秋季登陸 Steam 平台。官方公開新開發者預告影片，揭曉最新進度，並宣布 6 月推出系列賽事活動，所有玩家皆可免費體驗 PvP 模式。\n\n&nbsp;\n...."
+        }
+      ],
       "ok": true
     },
     {
