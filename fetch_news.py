@@ -4,12 +4,12 @@ import datetime
 import urllib.request
 
 SOURCES = [
-    {"id": "gamelook", "name": "GameLook", "color": "#e74c3c", "url": "https://www.gamelook.com.cn/?feed=rss2"},
-    {"id": "bahamut", "name": "巴哈姆特 GNN", "color": "#8e44ad", "url": "https://gnn.gamer.com.tw/rss.xml"},
+    {"id": "gamelook", "name": "GameLook", "color": "#e74c3c", "url": "https://rsshub.app/gamelook/news"},
+    {"id": "bahamut", "name": "巴哈姆特 GNN", "color": "#8e44ad", "url": "https://rsshub.app/gamer/gnn"},
     {"id": "pocketgamer", "name": "Pocket Gamer Biz", "color": "#2980b9", "url": "https://www.pocketgamer.biz/feed/"},
     {"id": "dof", "name": "Deconstructor of Fun", "color": "#27ae60", "url": "https://www.deconstructoroffun.com/blog?format=rss"},
     {"id": "naavik", "name": "Naavik", "color": "#d35400", "url": "https://naavik.co/feed/"},
-    {"id": "shouyoux", "name": "手遊那點事", "color": "#16a085", "url": "http://www.shouyoux.com/feed"},
+    {"id": "shouyoux", "name": "手遊那點事", "color": "#16a085", "url": "https://rsshub.app/shouyoux/news"},
 ]
 
 HEADERS = {
