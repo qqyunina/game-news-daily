@@ -3,291 +3,286 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>休閒遊戲早報 ☕</title>
+  <title>休閒遊戲早報</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Noto+Sans+TC:wght@400;500;700;900&family=Noto+Serif+TC:wght@500;600;700&display=swap" rel="stylesheet" />
   <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      /* editorial meadow — refined paper & forest */
+      --paper:      #f6f4ec;
+      --paper-2:    #fbfaf4;
+      --card:       #fffdf7;
+      --ink:        #1f261c;
+      --ink-dim:    #555c4d;
+      --ink-soft:   #8a907e;
+      --line:       #e3e0d4;
+      --line-2:     #d6d2c3;
+      --brand:      #2f7a3e;     /* deep forest */
+      --brand-deep: #1f5a2c;
+      --gold:       #a9803a;     /* refined amber */
+
+      --serif: 'Newsreader', 'Noto Serif TC', Georgia, serif;
+      --cjk-serif: 'Noto Serif TC', 'Newsreader', serif;
+      --sans: 'Noto Sans TC', system-ui, sans-serif;
+    }
 
     body {
-      font-family: 'Noto Sans TC', sans-serif;
-      background: #f5f0eb;
-      color: #2c2c2c;
+      font-family: var(--sans);
+      background: var(--paper);
+      color: var(--ink);
       min-height: 100vh;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
     }
 
-    header {
-      background: #fff;
-      border-bottom: 3px solid #e8d5c4;
-      padding: 20px 32px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      position: sticky;
-      top: 0;
-      z-index: 10;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    .wrap { max-width: 1080px; margin: 0 auto; padding: 0 clamp(20px, 5vw, 48px); }
+
+    /* ---------- MASTHEAD ---------- */
+    .masthead { padding-top: clamp(28px, 5vw, 52px); }
+    .edition {
+      display: flex; align-items: center; justify-content: space-between; gap: 16px;
+      font-size: 11.5px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase;
+      color: var(--ink-soft); padding-bottom: 12px;
+      border-bottom: 1px solid var(--line-2);
     }
-
-    .header-left h1 { font-size: 1.5rem; font-weight: 700; color: #5a3e2b; }
-    .header-left .subtitle { font-size: 0.82rem; color: #9e8878; margin-top: 2px; }
-
-    .header-right { display: flex; align-items: center; gap: 12px; }
-
-    #date-display {
-      font-size: 0.85rem; color: #9e8878;
-      background: #f5f0eb; padding: 6px 14px; border-radius: 20px;
+    .edition span { white-space: nowrap; }
+    .edition .e-right { color: var(--brand); letter-spacing: .6px; }
+    @media (max-width: 540px) {
+      .edition { font-size: 10.5px; letter-spacing: .6px; }
     }
+    .title-row { text-align: center; padding: clamp(22px, 4vw, 38px) 0 clamp(18px, 3vw, 26px); position: relative; }
+    .kicker {
+      font-size: 12px; font-weight: 800; letter-spacing: 3px; text-transform: uppercase;
+      color: var(--gold); margin-bottom: 14px;
+    }
+    .masthead h1 {
+      font-family: var(--cjk-serif); font-weight: 700;
+      font-size: clamp(30px, 5.2vw, 46px); line-height: 1; color: var(--ink);
+      letter-spacing: 2px;
+    }
+    .lede {
+      font-family: var(--serif); font-style: italic; font-size: clamp(15px, 2.2vw, 18px);
+      color: var(--ink-dim); margin-top: 16px;
+    }
+    .rule-double {
+      border-top: 3px solid var(--ink);
+      border-bottom: 1px solid var(--ink);
+      height: 5px; margin-top: clamp(18px, 3vw, 26px);
+    }
+    #date-display { font-variant-numeric: tabular-nums; }
 
-    .main { max-width: 1100px; margin: 0 auto; padding: 28px 20px 60px; }
+    /* ---------- BRIEF (insights) ---------- */
+    .brief-zone { padding-top: clamp(28px, 4vw, 40px); }
+    .brief {
+      background: var(--card);
+      border: 1px solid var(--line);
+      padding: clamp(26px, 3.6vw, 40px);
+      margin-bottom: 20px;
+      position: relative;
+    }
+    .brief + .brief { margin-top: 0; }
+    .brief-head {
+      display: flex; align-items: baseline; gap: 14px;
+      padding-bottom: 18px; margin-bottom: 22px;
+      border-bottom: 1px solid var(--line);
+    }
+    .brief-head .b-no {
+      font-family: var(--serif); font-size: 13px; font-weight: 600; letter-spacing: 2px;
+      text-transform: uppercase; color: var(--gold); white-space: nowrap;
+    }
+    .brief.actions .brief-head .b-no { color: var(--brand); }
+    .brief-head h2 {
+      font-family: var(--cjk-serif); font-weight: 600;
+      font-size: clamp(19px, 2.8vw, 25px); color: var(--ink); line-height: 1.25;
+      letter-spacing: .3px;
+    }
+    .brief-list { list-style: none; display: flex; flex-direction: column; }
+    .brief-list li {
+      display: flex; gap: 18px; align-items: flex-start;
+      padding: 16px 0; border-top: 1px solid var(--line);
+      font-size: 15.5px; line-height: 1.72; font-weight: 400; color: var(--ink-dim);
+      text-wrap: pretty;
+    }
+    .brief-list li:first-child { border-top: none; padding-top: 0; }
+    .brief-list li:last-child { padding-bottom: 0; }
+    .brief-list li .idx {
+      flex-shrink: 0; font-family: var(--serif); font-size: 24px; font-weight: 500;
+      line-height: 1; color: var(--gold); width: 34px; text-align: right;
+      font-variant-numeric: lining-nums;
+    }
+    .brief.actions .brief-list li .idx { color: var(--brand); }
+    .brief-list b, .brief-list strong { color: var(--ink); font-weight: 700; }
+    .brief-list a { color: var(--brand-deep); text-decoration: none; border-bottom: 1px solid color-mix(in srgb, var(--brand) 40%, transparent); font-weight: 600; }
+    .brief-list a:hover { background: color-mix(in srgb, var(--brand) 9%, transparent); }
 
-    .source-filter { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 24px; }
-
+    /* ---------- TOOLBAR ---------- */
+    .toolbar {
+      display: flex; align-items: center; justify-content: space-between;
+      flex-wrap: wrap; gap: 16px;
+      padding: clamp(30px, 4vw, 44px) 0 18px;
+      border-bottom: 1px solid var(--line-2);
+      margin-bottom: clamp(26px, 3vw, 36px);
+    }
+    #status-bar {
+      font-family: var(--serif); font-size: 14px; font-style: italic; color: var(--ink-soft);
+    }
+    #status-bar b { font-style: normal; font-weight: 600; color: var(--ink); }
+    .source-filter { display: flex; gap: 8px; flex-wrap: wrap; }
     .filter-btn {
-      padding: 5px 16px; border-radius: 20px;
-      border: 1.5px solid #d4bfa8; background: #fff;
-      color: #7a5c44; font-size: 0.8rem; font-family: inherit;
-      cursor: pointer; transition: all 0.15s;
+      padding: 7px 15px; border-radius: 999px;
+      border: 1px solid var(--line-2); background: transparent;
+      color: var(--ink-dim); font-size: 12.5px; font-weight: 700; font-family: var(--sans);
+      letter-spacing: .3px; cursor: pointer; transition: .15s; white-space: nowrap;
+      display: inline-flex; align-items: center; gap: 7px;
     }
-    .filter-btn.active, .filter-btn:hover {
-      background: #c47a3a; border-color: #c47a3a; color: #fff;
+    .filter-btn:hover { color: var(--ink); border-color: var(--ink-soft); }
+    .filter-btn.active {
+      background: var(--ink); border-color: var(--ink); color: var(--paper-2);
     }
+    .filter-btn .fdot { width: 7px; height: 7px; border-radius: 50%; display: inline-block; }
 
+    /* ---------- SECTIONS ---------- */
+    .source-section { margin-bottom: clamp(40px, 5vw, 56px); }
     .section-title {
-      font-size: 1rem; font-weight: 700; color: #5a3e2b;
-      margin-bottom: 14px; padding-bottom: 8px;
-      border-bottom: 2px solid #e8d5c4;
-      display: flex; align-items: center; gap: 8px;
+      display: flex; align-items: baseline; gap: 12px;
+      padding-bottom: 12px; margin-bottom: 22px;
+      border-bottom: 2px solid var(--ink);
     }
-    .section-title .dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+    .section-title .s-kicker {
+      font-size: 11px; font-weight: 800; letter-spacing: 2px; text-transform: uppercase;
+      color: var(--ink-soft);
+    }
+    .section-title .s-name {
+      font-family: var(--cjk-serif); font-weight: 600; font-size: clamp(18px, 2.4vw, 22px);
+      color: var(--ink); line-height: 1;
+    }
+    .section-title .s-dot { width: 9px; height: 9px; border-radius: 50%; align-self: center; }
+    .section-title .count {
+      margin-left: auto; font-family: var(--serif); font-style: italic;
+      font-size: 14px; color: var(--ink-soft); white-space: nowrap; flex-shrink: 0;
+    }
 
-    .source-section { margin-bottom: 36px; }
-
+    /* ---------- CARDS ---------- */
     .cards-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
-      gap: 14px;
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+      gap: 1px; background: var(--line);
+      border: 1px solid var(--line);
     }
-
     .card {
-      background: #fff; border-radius: 12px; padding: 16px 18px;
-      border: 1px solid #e8d5c4; transition: box-shadow 0.15s, transform 0.15s;
-      display: flex; flex-direction: column; gap: 8px;
+      background: var(--paper-2); padding: 22px 24px 20px;
+      display: flex; flex-direction: column; gap: 11px;
+      transition: background .18s;
     }
-    .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.10); transform: translateY(-2px); }
-
+    .card:hover { background: var(--card); }
     .card-source {
-      font-size: 0.72rem; font-weight: 700; padding: 2px 8px;
-      border-radius: 10px; color: #fff; display: inline-block; width: fit-content;
+      font-size: 10.5px; font-weight: 800; letter-spacing: 1.2px; text-transform: uppercase;
+      display: inline-flex; align-items: center; gap: 7px; width: fit-content;
     }
-    .card-title { font-size: 0.92rem; font-weight: 500; line-height: 1.5; color: #2c2c2c; }
-    .card-title:hover { color: #c47a3a; }
-    .card-date { font-size: 0.75rem; color: #b0998a; }
+    .card-source .cs-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+    .card a { text-decoration: none; }
+    .card-title {
+      font-family: var(--serif); font-weight: 500; font-size: 20px; line-height: 1.32;
+      color: var(--ink); transition: color .15s; text-wrap: pretty;
+      letter-spacing: -.1px;
+    }
+    .card a:hover .card-title { color: var(--brand-deep); }
     .card-desc {
-      font-size: 0.8rem; color: #7a6a60; line-height: 1.55;
-      display: -webkit-box; -webkit-line-clamp: 2;
-      -webkit-box-orient: vertical; overflow: hidden;
+      font-size: 13.5px; color: var(--ink-dim); line-height: 1.66; font-weight: 400;
+      display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+    }
+    .card-date {
+      font-size: 11px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase;
+      color: var(--ink-soft); margin-top: auto; padding-top: 6px;
+      font-variant-numeric: tabular-nums;
     }
 
-    .loading { text-align: center; padding: 60px 20px; color: #9e8878; font-size: 0.95rem; }
+    /* ---------- STATES ---------- */
+    .loading { text-align: center; padding: 80px 20px; color: var(--ink-soft); font-family: var(--serif); font-style: italic; font-size: 17px; }
     .loading .spinner {
-      width: 32px; height: 32px; border: 3px solid #e8d5c4;
-      border-top-color: #c47a3a; border-radius: 50%;
-      animation: spin 0.8s linear infinite; margin: 0 auto 16px;
+      width: 34px; height: 34px; border: 2px solid var(--line-2);
+      border-top-color: var(--brand); border-radius: 50%;
+      animation: spin .8s linear infinite; margin: 0 auto 18px;
     }
     @keyframes spin { to { transform: rotate(360deg); } }
 
     .error-msg {
-      background: #fff3f0; border: 1px solid #f5c6c0; border-radius: 10px;
-      padding: 12px 16px; font-size: 0.82rem; color: #c0392b; margin-top: 8px;
+      border: 1px solid var(--line); border-left: 3px solid var(--gold);
+      padding: 14px 18px; font-size: 13.5px; font-weight: 500; color: var(--gold);
+      background: var(--card);
     }
-    .empty-state { text-align: center; color: #b0998a; padding: 30px; font-size: 0.88rem; }
+    .empty-state { color: var(--ink-soft); padding: 26px 0; font-family: var(--serif); font-style: italic; font-size: 16px; }
 
-    #status-bar { text-align: center; font-size: 0.78rem; color: #b0998a; margin-bottom: 20px; }
+    .global-error {
+      border: 1px solid var(--line); background: var(--card);
+      padding: 48px 36px; text-align: center; max-width: 560px; margin: 40px auto;
+    }
+    .global-error .ge-ico { font-family: var(--cjk-serif); font-size: 34px; color: var(--brand); margin-bottom: 14px; }
+    .global-error .ge-t { font-family: var(--cjk-serif); font-size: 21px; font-weight: 600; color: var(--ink); margin-bottom: 12px; }
+    .global-error .ge-s { font-size: 14px; font-weight: 400; color: var(--ink-dim); line-height: 1.8; }
+    .global-error code { background: var(--paper); padding: 2px 7px; font-weight: 600; color: var(--brand-deep); border: 1px solid var(--line); }
 
-    .update-info {
-      text-align: center; font-size: 0.78rem; color: #b0998a;
-      margin-bottom: 6px;
+    .foot {
+      max-width: 1080px; margin: 0 auto; padding: clamp(30px, 4vw, 48px) clamp(20px, 5vw, 48px) 48px;
+      text-align: center; border-top: 1px solid var(--line-2); margin-top: 20px;
     }
-
-    .insights-box {
-      background: linear-gradient(135deg, #fff8f3, #fff);
-      border: 2px solid #e8d5c4;
-      border-radius: 16px;
-      padding: 24px 28px;
-      margin-bottom: 32px;
-    }
-
-    .insights-box h2 {
-      font-size: 1rem;
-      font-weight: 700;
-      color: #5a3e2b;
-      margin-bottom: 16px;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-
-    .insights-headline {
-      background: #c47a3a;
-      color: #fff;
-      border-radius: 12px;
-      padding: 14px 18px;
-      font-size: 1.02rem;
-      font-weight: 700;
-      line-height: 1.6;
-      margin-bottom: 16px;
-      display: flex;
-      gap: 10px;
-      align-items: flex-start;
-    }
-    .insights-headline .label {
-      flex-shrink: 0;
-      font-size: 0.72rem;
-      background: #fff;
-      color: #c47a3a;
-      border-radius: 8px;
-      padding: 3px 8px;
-      margin-top: 2px;
-      white-space: nowrap;
-    }
-
-    .insights-list {
-      list-style: none;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-    }
-
-    .insights-list li {
-      display: flex;
-      gap: 10px;
-      align-items: flex-start;
-      font-size: 0.88rem;
-      line-height: 1.6;
-      color: #3a2a1e;
-    }
-
-    .insights-list li::before {
-      content: "▸";
-      color: #c47a3a;
-      font-size: 0.9rem;
-      flex-shrink: 0;
-      margin-top: 1px;
-    }
-
-    .insights-list a {
-      color: #c47a3a;
-      text-decoration: none;
-      font-size: 0.78rem;
-      margin-left: 6px;
-      white-space: nowrap;
-    }
-
-    .insights-list a:hover { text-decoration: underline; }
-
-    .opp-box {
-      background: linear-gradient(135deg, #f3f8ff, #fff);
-      border: 2px solid #cdddf0;
-    }
-    .opp-list {
-      list-style: none;
-      display: flex;
-      flex-direction: column;
-      gap: 14px;
-    }
-    .opp-list li {
-      font-size: 0.88rem;
-      line-height: 1.6;
-      color: #3a2a1e;
-      padding-left: 14px;
-      border-left: 3px solid #2980b9;
-    }
-    .opp-list .opp-title {
-      font-weight: 700;
-      color: #1f5e8c;
-      display: block;
-      margin-bottom: 2px;
-    }
-
-    .card-title-en {
-      font-size: 0.72rem;
-      color: #b0998a;
-      line-height: 1.4;
-      margin-top: 2px;
-    }
-
-    .rank-wrap {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 16px;
-      margin-bottom: 36px;
-    }
-    .rank-box {
-      background: #fff;
-      border: 2px solid #e8d5c4;
-      border-radius: 16px;
-      padding: 18px 20px;
-    }
-    .rank-box h3 {
-      font-size: 0.92rem;
-      font-weight: 700;
-      color: #5a3e2b;
-      margin-bottom: 14px;
-    }
-    .rank-list { list-style: none; display: flex; flex-direction: column; gap: 9px; }
-    .rank-item { display: flex; align-items: center; gap: 10px; }
-    .rank-num {
-      width: 22px; text-align: center; flex-shrink: 0;
-      font-weight: 700; font-size: 0.9rem; color: #9e8878;
-    }
-    .rank-num.top1 { color: #d4af37; }
-    .rank-num.top2 { color: #9aa0a6; }
-    .rank-num.top3 { color: #b87333; }
-    .rank-icon { width: 38px; height: 38px; border-radius: 9px; flex-shrink: 0; background: #f0e6da; object-fit: cover; }
-    .rank-meta { display: flex; flex-direction: column; min-width: 0; flex: 1; }
-    .rank-name { font-size: 0.84rem; font-weight: 500; color: #2c2c2c; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-    .rank-name:hover { color: #c47a3a; }
-    .rank-artist { font-size: 0.72rem; color: #b0998a; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .foot .f-mark { font-family: var(--cjk-serif); font-size: 16px; font-weight: 600; color: var(--ink); letter-spacing: 1px; }
+    .foot .f-sub { font-size: 11.5px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: var(--ink-soft); margin-top: 8px; }
   </style>
 </head>
 <body>
 
-<header>
-  <div class="header-left">
-    <h1>🐱 休閒遊戲早報</h1>
-    <div class="subtitle">miniworld 產品組 · 每日市場情報</div>
-  </div>
-  <div class="header-right">
-    <div id="date-display">載入中…</div>
-  </div>
-</header>
-
-<div class="main">
-  <div id="update-info" class="update-info"></div>
-
-  <div class="insights-box" id="insights-box" style="display:none">
-    <h2>💡 今天可以學習到的休閒遊戲市場新知</h2>
-    <div class="insights-headline" id="insights-headline" style="display:none"></div>
-    <ul class="insights-list" id="insights-list"></ul>
+<div class="wrap">
+  <div class="masthead">
+    <div class="edition">
+      <span>miniworld 產品組 · 每日市場情報</span>
+      <span class="e-right" id="date-display">載入中…</span>
+    </div>
+    <div class="title-row">
+      <div class="kicker">Casual Games · Morning Brief</div>
+      <h1>休閒遊戲早報</h1>
+      <div class="lede">每日精選全球休閒遊戲市場情報，為產品決策提供方向。</div>
+    </div>
+    <div class="rule-double"></div>
   </div>
 
-  <div class="insights-box opp-box" id="opp-box" style="display:none">
-    <h2>🎯 結合市場趨勢，我們可以優化的方向</h2>
-    <ul class="opp-list" id="opp-list"></ul>
+  <div class="brief-zone">
+    <div id="update-info" class="error-msg" style="display:none;border-left-color:var(--brand);color:var(--ink-dim);font-weight:600"></div>
+
+    <div class="brief" id="insights-box" style="display:none">
+      <div class="brief-head">
+        <span class="b-no">No. 01 · 市場新知</span>
+        <h2>今天可以學習到的休閒遊戲市場新知</h2>
+      </div>
+      <ul class="brief-list" id="insights-list"></ul>
+    </div>
+
+    <div class="brief actions" id="actions-box" style="display:none">
+      <div class="brief-head">
+        <span class="b-no">No. 02 · 行動方向</span>
+        <h2>結合市場趨勢，我們可以優化的方向</h2>
+      </div>
+      <ul class="brief-list" id="actions-list"></ul>
+    </div>
   </div>
 
-  <div id="rankings"></div>
-
-  <div id="status-bar"></div>
-
-  <div class="source-filter" id="filter-bar">
-    <button class="filter-btn active" onclick="filterSource('all', this)">全部</button>
+  <div class="toolbar">
+    <div id="status-bar"></div>
+    <div class="source-filter" id="filter-bar">
+      <button class="filter-btn active" onclick="filterSource('all', this)">全部</button>
+    </div>
   </div>
 
   <div id="content">
     <div class="loading"><div class="spinner"></div>載入今日早報…</div>
   </div>
+</div>
+
+<div class="foot">
+  <div class="f-mark">休閒遊戲早報</div>
+  <div class="f-sub">miniworld 產品組 · 每日自動更新</div>
 </div>
 
 <script>
@@ -302,18 +297,14 @@ function formatDate(dateStr) {
 }
 
 function renderCard(item, source) {
-  const zh = item.title_zh && item.title_zh.trim();
-  const mainTitle = zh || item.title || '(無標題)';
-  const enSub = (zh && item.title) ? `<div class="card-title-en">${item.title}</div>` : '';
   return `
     <div class="card">
-      <span class="card-source" style="background:${source.color}">${source.name}</span>
+      <span class="card-source" style="color:${source.color}"><span class="cs-dot" style="background:${source.color}"></span>${source.name}</span>
       <a href="${item.link}" target="_blank" rel="noopener">
-        <div class="card-title">${mainTitle}</div>
-        ${enSub}
+        <div class="card-title">${item.title || '(無標題)'}</div>
       </a>
       ${item.desc ? `<div class="card-desc">${item.desc}</div>` : ''}
-      <div class="card-date">${formatDate(item.date)}</div>
+      ${item.date ? `<div class="card-date">${formatDate(item.date)}</div>` : ''}
     </div>`;
 }
 
@@ -328,23 +319,28 @@ function renderAll() {
 
   for (const result of sources) {
     const s = result.source;
+    const items = (result.ok && result.items) ? result.items : [];
     html += `<div class="source-section">`;
-    html += `<div class="section-title"><span class="dot" style="background:${s.color}"></span>${s.name}</div>`;
+    html += `<div class="section-title">
+        <span class="s-dot" style="background:${s.color}"></span>
+        <span class="s-name">${s.name}</span>
+        ${items.length ? `<span class="count">${items.length} 篇精選</span>` : ''}
+      </div>`;
 
     if (!result.ok) {
       html += `<div class="error-msg">今日無法抓取資料</div>`;
-    } else if (!result.items || result.items.length === 0) {
-      html += `<div class="empty-state">今日無新文章</div>`;
+    } else if (items.length === 0) {
+      html += `<div class="empty-state">今日無新文章。</div>`;
     } else {
       html += `<div class="cards-grid">`;
-      result.items.forEach(item => { html += renderCard(item, s); totalCount++; });
+      items.forEach(item => { html += renderCard(item, s); totalCount++; });
       html += `</div>`;
     }
     html += `</div>`;
   }
 
   content.innerHTML = html || '<div class="empty-state">沒有內容</div>';
-  document.getElementById('status-bar').textContent = `共 ${totalCount} 篇文章`;
+  document.getElementById('status-bar').innerHTML = `今日共 <b>${totalCount}</b> 篇精選文章`;
 }
 
 function filterSource(id, btn) {
@@ -354,47 +350,12 @@ function filterSource(id, btn) {
   renderAll();
 }
 
-function buildInsights(data, insights) {
-  const box = document.getElementById('insights-box');
-  const headline = document.getElementById('insights-headline');
-  const list = document.getElementById('insights-list');
-
-  if (!insights || insights.length === 0) return;
-
-  // 第一條 = 今日最重點，放最上方醒目顯示
-  headline.innerHTML = `<span class="label">今日最重點</span><span>${insights[0]}</span>`;
-  headline.style.display = 'flex';
-
-  // 其餘條列在下方
-  list.innerHTML = insights.slice(1).map(point => `<li>${point}</li>`).join('');
+function buildList(boxId, listId, points) {
+  const box = document.getElementById(boxId);
+  const list = document.getElementById(listId);
+  if (!points || points.length === 0) { box.style.display = 'none'; return; }
+  list.innerHTML = points.map((point, i) => `<li><span class="idx">${i+1}</span><span>${point}</span></li>`).join('');
   box.style.display = 'block';
-}
-
-function buildOpportunities(opps) {
-  const box = document.getElementById('opp-box');
-  const list = document.getElementById('opp-list');
-  if (!opps || opps.length === 0) return;
-  list.innerHTML = opps.map(o =>
-    `<li><span class="opp-title">${o.title}</span>${o.detail || ''}</li>`).join('');
-  box.style.display = 'block';
-}
-
-function buildRankings(rankings) {
-  const wrap = document.getElementById('rankings');
-  if (!rankings || rankings.length === 0) return;
-  let html = `<div class="section-title" style="margin-bottom:14px"><span class="dot" style="background:#c47a3a"></span>📊 休閒遊戲排行榜（iOS 台灣）</div><div class="rank-wrap">`;
-  for (const b of rankings) {
-    html += `<div class="rank-box"><h3>${b.title}</h3><ul class="rank-list">`;
-    (b.items || []).forEach(it => {
-      const numCls = it.rank <= 3 ? `rank-num top${it.rank}` : 'rank-num';
-      const icon = it.icon ? `<img class="rank-icon" src="${it.icon}" alt="" loading="lazy">` : `<div class="rank-icon"></div>`;
-      const open = it.link ? `href="${it.link}" target="_blank" rel="noopener"` : '';
-      html += `<li class="rank-item"><span class="${numCls}">${it.rank}</span>${icon}<a class="rank-meta" ${open} style="text-decoration:none"><span class="rank-name">${it.name || ''}</span><span class="rank-artist">${it.artist || ''}</span></a></li>`;
-    });
-    html += `</ul></div>`;
-  }
-  html += `</div>`;
-  wrap.innerHTML = html;
 }
 
 function buildFilterBar(sources) {
@@ -402,13 +363,16 @@ function buildFilterBar(sources) {
   bar.innerHTML = `<button class="filter-btn active" onclick="filterSource('all', this)">全部</button>`;
   sources.forEach(r => {
     const s = r.source;
-    bar.innerHTML += `<button class="filter-btn" onclick="filterSource('${s.id}', this)">${s.name}</button>`;
+    bar.innerHTML += `<button class="filter-btn" onclick="filterSource('${s.id}', this)">
+        <span class="fdot" style="background:${s.color}"></span>${s.name}
+      </button>`;
   });
 }
 
 async function loadData() {
   try {
-    const res = await fetch('data.json?t=' + Date.now());
+    let res = await fetch('data.json?t=' + Date.now()).catch(() => null);
+    if (!res || !res.ok) res = await fetch('data.json');   // fallback if cache-bust query is blocked
     if (!res.ok) throw new Error('data.json not found');
     const json = await res.json();
     allData = json.sources || [];
@@ -416,18 +380,24 @@ async function loadData() {
     if (json.updated) {
       const d = new Date(json.updated);
       const twTime = new Date(d.getTime() + 8 * 60 * 60 * 1000);
-      document.getElementById('update-info').textContent =
+      const ui = document.getElementById('update-info');
+      ui.textContent =
         `資料更新時間：${twTime.getUTCFullYear()}/${String(twTime.getUTCMonth()+1).padStart(2,'0')}/${String(twTime.getUTCDate()).padStart(2,'0')} ${String(twTime.getUTCHours()).padStart(2,'0')}:${String(twTime.getUTCMinutes()).padStart(2,'0')} (台灣時間)`;
+      ui.style.display = 'block';
     }
 
     buildFilterBar(allData);
-    buildInsights(allData, json.insights || []);
-    buildOpportunities(json.opportunities || []);
-    buildRankings(json.rankings || []);
+    buildList('insights-box', 'insights-list', json.insights || []);
+    buildList('actions-box', 'actions-list', json.actions || []);
     renderAll();
   } catch(e) {
     document.getElementById('content').innerHTML =
-      `<div class="error-msg">⚠️ 尚未有資料 — 請等 GitHub Actions 第一次執行完成（通常在每天早上 09:00）<br><br>或者你可以手動觸發：去 GitHub repo → Actions → Fetch Game News → Run workflow</div>`;
+      `<div class="global-error">
+        <div class="ge-ico">☘</div>
+        <div class="ge-t">尚未有今日資料</div>
+        <div class="ge-s">請等 GitHub Actions 第一次執行完成（通常在每天早上 09:00）。<br>
+        或者你可以手動觸發：<code>GitHub repo → Actions → Fetch Game News → Run workflow</code></div>
+      </div>`;
   }
 }
 
@@ -435,7 +405,7 @@ async function loadData() {
 const today = new Date();
 const weekdays = ['日','一','二','三','四','五','六'];
 document.getElementById('date-display').textContent =
-  `${today.getFullYear()}/${String(today.getMonth()+1).padStart(2,'0')}/${String(today.getDate()).padStart(2,'0')} 週${weekdays[today.getDay()]}`;
+  `${today.getFullYear()}年 ${String(today.getMonth()+1).padStart(2,'0')}月 ${String(today.getDate()).padStart(2,'0')}日 · 週${weekdays[today.getDay()]}`;
 
 loadData();
 </script>
