@@ -209,6 +209,46 @@
       display: block;
       margin-bottom: 2px;
     }
+
+    .card-title-en {
+      font-size: 0.72rem;
+      color: #b0998a;
+      line-height: 1.4;
+      margin-top: 2px;
+    }
+
+    .rank-wrap {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 16px;
+      margin-bottom: 36px;
+    }
+    .rank-box {
+      background: #fff;
+      border: 2px solid #e8d5c4;
+      border-radius: 16px;
+      padding: 18px 20px;
+    }
+    .rank-box h3 {
+      font-size: 0.92rem;
+      font-weight: 700;
+      color: #5a3e2b;
+      margin-bottom: 14px;
+    }
+    .rank-list { list-style: none; display: flex; flex-direction: column; gap: 9px; }
+    .rank-item { display: flex; align-items: center; gap: 10px; }
+    .rank-num {
+      width: 22px; text-align: center; flex-shrink: 0;
+      font-weight: 700; font-size: 0.9rem; color: #9e8878;
+    }
+    .rank-num.top1 { color: #d4af37; }
+    .rank-num.top2 { color: #9aa0a6; }
+    .rank-num.top3 { color: #b87333; }
+    .rank-icon { width: 38px; height: 38px; border-radius: 9px; flex-shrink: 0; background: #f0e6da; object-fit: cover; }
+    .rank-meta { display: flex; flex-direction: column; min-width: 0; flex: 1; }
+    .rank-name { font-size: 0.84rem; font-weight: 500; color: #2c2c2c; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .rank-name:hover { color: #c47a3a; }
+    .rank-artist { font-size: 0.72rem; color: #b0998a; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   </style>
 </head>
 <body>
@@ -237,6 +277,8 @@
     <ul class="opp-list" id="opp-list"></ul>
   </div>
 
+  <div id="rankings"></div>
+
   <div id="status-bar"></div>
 
   <div class="source-filter" id="filter-bar">
@@ -260,11 +302,15 @@ function formatDate(dateStr) {
 }
 
 function renderCard(item, source) {
+  const zh = item.title_zh && item.title_zh.trim();
+  const mainTitle = zh || item.title || '(無標題)';
+  const enSub = (zh && item.title) ? `<div class="card-title-en">${item.title}</div>` : '';
   return `
     <div class="card">
       <span class="card-source" style="background:${source.color}">${source.name}</span>
       <a href="${item.link}" target="_blank" rel="noopener">
-        <div class="card-title">${item.title || '(無標題)'}</div>
+        <div class="card-title">${mainTitle}</div>
+        ${enSub}
       </a>
       ${item.desc ? `<div class="card-desc">${item.desc}</div>` : ''}
       <div class="card-date">${formatDate(item.date)}</div>
@@ -333,6 +379,24 @@ function buildOpportunities(opps) {
   box.style.display = 'block';
 }
 
+function buildRankings(rankings) {
+  const wrap = document.getElementById('rankings');
+  if (!rankings || rankings.length === 0) return;
+  let html = `<div class="section-title" style="margin-bottom:14px"><span class="dot" style="background:#c47a3a"></span>📊 休閒遊戲排行榜（iOS 台灣）</div><div class="rank-wrap">`;
+  for (const b of rankings) {
+    html += `<div class="rank-box"><h3>${b.title}</h3><ul class="rank-list">`;
+    (b.items || []).forEach(it => {
+      const numCls = it.rank <= 3 ? `rank-num top${it.rank}` : 'rank-num';
+      const icon = it.icon ? `<img class="rank-icon" src="${it.icon}" alt="" loading="lazy">` : `<div class="rank-icon"></div>`;
+      const open = it.link ? `href="${it.link}" target="_blank" rel="noopener"` : '';
+      html += `<li class="rank-item"><span class="${numCls}">${it.rank}</span>${icon}<a class="rank-meta" ${open} style="text-decoration:none"><span class="rank-name">${it.name || ''}</span><span class="rank-artist">${it.artist || ''}</span></a></li>`;
+    });
+    html += `</ul></div>`;
+  }
+  html += `</div>`;
+  wrap.innerHTML = html;
+}
+
 function buildFilterBar(sources) {
   const bar = document.getElementById('filter-bar');
   bar.innerHTML = `<button class="filter-btn active" onclick="filterSource('all', this)">全部</button>`;
@@ -359,6 +423,7 @@ async function loadData() {
     buildFilterBar(allData);
     buildInsights(allData, json.insights || []);
     buildOpportunities(json.opportunities || []);
+    buildRankings(json.rankings || []);
     renderAll();
   } catch(e) {
     document.getElementById('content').innerHTML =
