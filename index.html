@@ -128,6 +128,30 @@
       gap: 8px;
     }
 
+    .insights-headline {
+      background: #c47a3a;
+      color: #fff;
+      border-radius: 12px;
+      padding: 14px 18px;
+      font-size: 1.02rem;
+      font-weight: 700;
+      line-height: 1.6;
+      margin-bottom: 16px;
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+    }
+    .insights-headline .label {
+      flex-shrink: 0;
+      font-size: 0.72rem;
+      background: #fff;
+      color: #c47a3a;
+      border-radius: 8px;
+      padding: 3px 8px;
+      margin-top: 2px;
+      white-space: nowrap;
+    }
+
     .insights-list {
       list-style: none;
       display: flex;
@@ -180,6 +204,7 @@
 
   <div class="insights-box" id="insights-box" style="display:none">
     <h2>💡 今天可以學習到的休閒遊戲市場新知</h2>
+    <div class="insights-headline" id="insights-headline" style="display:none"></div>
     <ul class="insights-list" id="insights-list"></ul>
   </div>
 
@@ -256,11 +281,17 @@ function filterSource(id, btn) {
 
 function buildInsights(data, insights) {
   const box = document.getElementById('insights-box');
+  const headline = document.getElementById('insights-headline');
   const list = document.getElementById('insights-list');
 
   if (!insights || insights.length === 0) return;
 
-  list.innerHTML = insights.map(point => `<li>${point}</li>`).join('');
+  // 第一條 = 今日最重點，放最上方醒目顯示
+  headline.innerHTML = `<span class="label">今日最重點</span><span>${insights[0]}</span>`;
+  headline.style.display = 'flex';
+
+  // 其餘條列在下方
+  list.innerHTML = insights.slice(1).map(point => `<li>${point}</li>`).join('');
   box.style.display = 'block';
 }
 
