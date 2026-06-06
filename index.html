@@ -371,26 +371,21 @@ function renderAll() {
   for (const result of sources) {
     const s = result.source;
     const items = (result.ok && result.items) ? result.items : [];
+    if (items.length === 0) continue;   // 當天沒有新文章 → 整個來源隱藏
+
     html += `<div class="source-section">`;
     html += `<div class="section-title">
         <span class="s-dot" style="background:${s.color}"></span>
         <span class="s-name">${s.name}</span>
-        ${items.length ? `<span class="count">${items.length} 篇精選</span>` : ''}
+        <span class="count">${items.length} 篇精選</span>
       </div>`;
-
-    if (!result.ok) {
-      html += `<div class="error-msg">今日無法抓取資料</div>`;
-    } else if (items.length === 0) {
-      html += `<div class="empty-state">今日無新文章。</div>`;
-    } else {
-      html += `<div class="cards-grid">`;
-      items.forEach(item => { html += renderCard(item, s); totalCount++; });
-      html += `</div>`;
-    }
+    html += `<div class="cards-grid">`;
+    items.forEach(item => { html += renderCard(item, s); totalCount++; });
+    html += `</div>`;
     html += `</div>`;
   }
 
-  content.innerHTML = html || '<div class="empty-state">沒有內容</div>';
+  content.innerHTML = html || '<div class="empty-state">今日各來源都沒有新文章。</div>';
   document.getElementById('status-bar').innerHTML = `今日共 <b>${totalCount}</b> 篇精選文章`;
 }
 
@@ -450,6 +445,8 @@ function buildFilterBar(sources) {
   const bar = document.getElementById('filter-bar');
   bar.innerHTML = `<button class="filter-btn active" onclick="filterSource('all', this)">全部</button>`;
   sources.forEach(r => {
+    const items = (r.ok && r.items) ? r.items : [];
+    if (items.length === 0) return;   // 沒有新文章的來源不列入篩選鈕
     const s = r.source;
     bar.innerHTML += `<button class="filter-btn" onclick="filterSource('${s.id}', this)">
         <span class="fdot" style="background:${s.color}"></span>${s.name}

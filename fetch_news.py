@@ -83,6 +83,28 @@ for src in SOURCES:
         print(f"ERR {src['name']}: {e}")
 
 
+# ---------- 去重複：只保留「今天之前沒出現過」的文章（週刊文章不會連日重複）----------
+SEEN_PATH = os.path.join(REPO, "archive", "seen.json")
+TODAY_ISO = datetime.date.today().isoformat()
+seen = {}
+try:
+    if os.path.exists(SEEN_PATH):
+        seen = json.load(open(SEEN_PATH, encoding="utf-8")).get("links", {})
+except Exception:
+    seen = {}
+
+def is_fresh(it):
+    k = it.get("link") or it.get("title")
+    if not k:
+        return True
+    d = seen.get(k)
+    return (d is None) or (d == TODAY_ISO)   # 沒看過、或今天才首次看到 → 算新
+
+for r in results:
+    if r["ok"]:
+        r["items"] = [it for it in r["items"] if is_fresh(it)]
+
+
 # ---------- 每來源挑最有價值的 2 篇（AI；失敗取前 2）----------
 def trim_first_two():
     for r in results:
@@ -229,6 +251,19 @@ print("data.json 已寫入")
 
 arc = os.path.join(REPO, "archive")
 os.makedirs(arc, exist_ok=True)
+
+# 記錄今天顯示過的文章（供之後去重）；修剪 120 天前的記錄
+for r in results:
+    if r["ok"]:
+        for it in r["items"]:
+            k = it.get("link") or it.get("title")
+            if k and k not in seen:
+                seen[k] = TODAY_ISO
+cutoff = (datetime.date.today() - datetime.timedelta(days=120)).isoformat()
+seen = {k: v for k, v in seen.items() if v >= cutoff}
+with open(SEEN_PATH, "w", encoding="utf-8") as f:
+    json.dump({"links": seen}, f, ensure_ascii=False)
+print(f"去重記錄：{len(seen)} 筆")
 today = datetime.date.today().isoformat()
 with open(os.path.join(arc, f"{today}.json"), "w", encoding="utf-8") as f:
     f.write(js)
