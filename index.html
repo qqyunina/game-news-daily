@@ -188,6 +188,23 @@
     .rank-row .rk-name { font-size: 14.5px; font-weight: 600; color: var(--ink); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
     .rank-row a:hover .rk-name { color: var(--brand-deep); }
     .rank-row .rk-artist { font-size: 12px; color: var(--ink-soft); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-top: 1px; }
+    .rank-row.me { background: color-mix(in srgb, var(--gold) 14%, transparent); margin: 0 -12px; padding: 10px 12px; }
+    .rank-row.me .rk-name { color: var(--brand-deep); }
+    .rank-self {
+      margin-top: 16px; padding-top: 14px; border-top: 2px solid var(--ink);
+      font-size: 14px; font-weight: 600; color: var(--ink); display: flex; align-items: center; gap: 8px;
+    }
+    .rank-self b { color: var(--gold); font-family: var(--serif); font-size: 20px; font-weight: 600; }
+    .rank-self.out { color: var(--ink-soft); font-weight: 500; }
+
+    /* date picker */
+    .datepick-wrap { position: relative; display: inline-flex; align-items: center; gap: 10px; }
+    .date-pick { cursor: pointer; border-bottom: 1px dashed currentColor; }
+    .datepick-input { position: absolute; right: 0; top: 120%; width: 1px; height: 1px; opacity: 0; border: 0; padding: 0; }
+    .back-today {
+      cursor: pointer; color: var(--gold); font-weight: 700; letter-spacing: .4px;
+      border-bottom: 1px solid color-mix(in srgb, var(--gold) 45%, transparent);
+    }
 
     /* ---------- CARDS ---------- */
     .cards-grid {
@@ -262,7 +279,11 @@
   <div class="masthead">
     <div class="edition">
       <span>每日市場情報</span>
-      <span class="e-right" id="date-display">載入中…</span>
+      <span class="e-right datepick-wrap">
+        <a class="back-today" id="back-today" style="display:none" onclick="loadData()">↩ 回到今天</a>
+        <span class="date-pick" id="date-display" title="點此選日期，查看過去的早報" onclick="openDatePicker()">載入中…</span>
+        <input type="date" id="datepick" class="datepick-input" onchange="onDateChange(this.value)" />
+      </span>
     </div>
     <div class="title-row">
       <div class="kicker">Casual Games · Morning Brief</div>
@@ -406,12 +427,20 @@ function buildRankings(rankings) {
   for (const b of rankings) {
     html += `<div class="rankcol"><h3>${b.title}</h3><ul class="rank-list">`;
     (b.items || []).forEach(it => {
-      const topCls = it.rank <= 3 ? 'rank-row top' : 'rank-row';
+      const isMe = b.self && it.rank === b.self.rank;
+      const cls = (it.rank <= 3 ? 'rank-row top' : 'rank-row') + (isMe ? ' me' : '');
       const icon = it.icon ? `<img src="${it.icon}" alt="" loading="lazy">` : '';
       const open = it.link ? `href="${it.link}" target="_blank" rel="noopener"` : '';
-      html += `<li class="${topCls}"><span class="rk-no">${it.rank}</span>${icon}<a class="rk-meta" ${open}><span class="rk-name">${it.name || ''}</span><span class="rk-artist">${it.artist || ''}</span></a></li>`;
+      html += `<li class="${cls}"><span class="rk-no">${it.rank}</span>${icon}<a class="rk-meta" ${open}><span class="rk-name">${it.name || ''}</span><span class="rk-artist">${it.artist || ''}</span></a></li>`;
     });
-    html += `</ul></div>`;
+    html += `</ul>`;
+    if (b.self) {
+      const inTop = (b.items || []).some(x => x.rank === b.self.rank);
+      html += `<div class="rank-self">🐱 貓咪造咖 今日第 <b>${b.self.rank}</b> 名${inTop ? '（已在上榜名單）' : ''}</div>`;
+    } else {
+      html += `<div class="rank-self out">🐱 貓咪造咖 今日未進前 100 名</div>`;
+    }
+    html += `</div>`;
   }
   html += `</div>`;
   wrap.innerHTML = html;
@@ -428,11 +457,59 @@ function buildFilterBar(sources) {
   });
 }
 
-async function loadData() {
+const weekdays = ['日','一','二','三','四','五','六'];
+function todayStr() {
+  const t = new Date();
+  return `${t.getFullYear()}-${String(t.getMonth()+1).padStart(2,'0')}-${String(t.getDate()).padStart(2,'0')}`;
+}
+function fmtCN(dStr) {
+  const [y,m,dd] = dStr.split('-').map(Number);
+  const dt = new Date(y, m-1, dd);
+  return `${y}年 ${String(m).padStart(2,'0')}月 ${String(dd).padStart(2,'0')}日 · 週${weekdays[dt.getDay()]}`;
+}
+function setViewingLabel(viewing, today) {
+  const past = viewing !== today;
+  document.getElementById('date-display').textContent = fmtCN(viewing) + (past ? ' · 存檔' : '');
+  document.getElementById('back-today').style.display = past ? 'inline' : 'none';
+  const dp = document.getElementById('datepick');
+  if (dp) { dp.value = viewing; dp.max = today; }
+}
+
+function openDatePicker() {
+  const dp = document.getElementById('datepick');
+  if (dp.showPicker) { try { dp.showPicker(); return; } catch(e) {} }
+  dp.focus(); dp.click();
+}
+function onDateChange(v) { if (v) loadData(v); }
+
+async function initArchive() {
+  const dp = document.getElementById('datepick');
+  dp.max = todayStr();
   try {
-    let res = await fetch('data.json?t=' + Date.now()).catch(() => null);
-    if (!res || !res.ok) res = await fetch('data.json');   // fallback if cache-bust query is blocked
-    if (!res.ok) throw new Error('data.json not found');
+    const r = await fetch('archive/index.json?t=' + Date.now());
+    if (r.ok) {
+      const j = await r.json();
+      const dates = (j.dates || []).slice().sort();
+      if (dates.length) dp.min = dates[0];
+    }
+  } catch(e) {}
+}
+
+function clearBriefs() {
+  ['insights-box','actions-box'].forEach(id => { const el = document.getElementById(id); if (el) el.style.display = 'none'; });
+  const rk = document.getElementById('rankings'); if (rk) rk.innerHTML = '';
+  document.getElementById('status-bar').innerHTML = '';
+}
+
+async function loadData(dateStr) {
+  const today = todayStr();
+  const viewing = dateStr || today;
+  const url = (viewing === today) ? 'data.json' : `archive/${viewing}.json`;
+  setViewingLabel(viewing, today);
+  try {
+    let res = await fetch(url + '?t=' + Date.now()).catch(() => null);
+    if (!res || !res.ok) res = await fetch(url);
+    if (!res.ok) throw new Error('not found');
     const json = await res.json();
     allData = json.sources || [];
 
@@ -451,21 +528,26 @@ async function loadData() {
     buildRankings(json.rankings || []);
     renderAll();
   } catch(e) {
-    document.getElementById('content').innerHTML =
-      `<div class="global-error">
-        <div class="ge-ico">☘</div>
-        <div class="ge-t">尚未有今日資料</div>
-        <div class="ge-s">每天早上 09:00 會自動更新；若還沒看到內容，請稍候再重新整理。</div>
-      </div>`;
+    clearBriefs();
+    if (viewing !== today) {
+      document.getElementById('content').innerHTML =
+        `<div class="global-error">
+          <div class="ge-ico">☘</div>
+          <div class="ge-t">這天還沒有早報</div>
+          <div class="ge-s">${fmtCN(viewing)} 沒有存檔資料。<br>請選擇其他日期，或點右上角「回到今天」。</div>
+        </div>`;
+    } else {
+      document.getElementById('content').innerHTML =
+        `<div class="global-error">
+          <div class="ge-ico">☘</div>
+          <div class="ge-t">尚未有今日資料</div>
+          <div class="ge-s">每天早上 09:00 會自動更新；若還沒看到內容，請稍候再重新整理。</div>
+        </div>`;
+    }
   }
 }
 
-// 日期顯示
-const today = new Date();
-const weekdays = ['日','一','二','三','四','五','六'];
-document.getElementById('date-display').textContent =
-  `${today.getFullYear()}年 ${String(today.getMonth()+1).padStart(2,'0')}月 ${String(today.getDate()).padStart(2,'0')}日 · 週${weekdays[today.getDay()]}`;
-
+initArchive();
 loadData();
 </script>
 
