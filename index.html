@@ -185,6 +185,30 @@
     }
 
     .insights-list a:hover { text-decoration: underline; }
+
+    .opp-box {
+      background: linear-gradient(135deg, #f3f8ff, #fff);
+      border: 2px solid #cdddf0;
+    }
+    .opp-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+    .opp-list li {
+      font-size: 0.88rem;
+      line-height: 1.6;
+      color: #3a2a1e;
+      padding-left: 14px;
+      border-left: 3px solid #2980b9;
+    }
+    .opp-list .opp-title {
+      font-weight: 700;
+      color: #1f5e8c;
+      display: block;
+      margin-bottom: 2px;
+    }
   </style>
 </head>
 <body>
@@ -206,6 +230,11 @@
     <h2>💡 今天可以學習到的休閒遊戲市場新知</h2>
     <div class="insights-headline" id="insights-headline" style="display:none"></div>
     <ul class="insights-list" id="insights-list"></ul>
+  </div>
+
+  <div class="insights-box opp-box" id="opp-box" style="display:none">
+    <h2>🎯 結合市場趨勢，我們可以優化的方向</h2>
+    <ul class="opp-list" id="opp-list"></ul>
   </div>
 
   <div id="status-bar"></div>
@@ -295,6 +324,15 @@ function buildInsights(data, insights) {
   box.style.display = 'block';
 }
 
+function buildOpportunities(opps) {
+  const box = document.getElementById('opp-box');
+  const list = document.getElementById('opp-list');
+  if (!opps || opps.length === 0) return;
+  list.innerHTML = opps.map(o =>
+    `<li><span class="opp-title">${o.title}</span>${o.detail || ''}</li>`).join('');
+  box.style.display = 'block';
+}
+
 function buildFilterBar(sources) {
   const bar = document.getElementById('filter-bar');
   bar.innerHTML = `<button class="filter-btn active" onclick="filterSource('all', this)">全部</button>`;
@@ -320,6 +358,7 @@ async function loadData() {
 
     buildFilterBar(allData);
     buildInsights(allData, json.insights || []);
+    buildOpportunities(json.opportunities || []);
     renderAll();
   } catch(e) {
     document.getElementById('content').innerHTML =
