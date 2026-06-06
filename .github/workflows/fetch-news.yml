@@ -1,0 +1,37 @@
+name: Morning Briefing
+
+on:
+  schedule:
+    - cron: '0 1 * * *'   # 每天 09:00 台灣時間 (UTC+8)
+  workflow_dispatch:        # 允許手動觸發
+
+permissions:
+  contents: write
+
+concurrency:
+  group: morning-briefing
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Fetch news + rankings
+        run: python fetch_news.py
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+      - name: Commit & push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase --autostash origin main || true
+          git add data.json archive
+          git diff --cached --quiet || git commit -m "chore: cloud morning briefing $(date +%F)"
+          git push
