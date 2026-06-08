@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-06-08T10:28:53Z",
+    "updated":  "2026-06-08T10:36:42Z",
     "sources":  [
                     {
                         "ok":  true,
@@ -44,6 +44,13 @@
                         "items":  [
                                       {
                                           "title_zh":  "",
+                                          "title":  "前 Blizzard 創意長領軍打造　暗黑視角爬塔大逃殺新作《方舟高塔 Arkheron》曝光影片",
+                                          "link":  "https://gnn.gamer.com.tw/detail.php?sn=306310",
+                                          "desc":  "曾參與《魔獸世界》、《暗黑破壞神 2》、《星海爭霸》設計的前 Blizzard 創意長 Rob Pardo 與多位遊戲製作人成立開發工作室 Bonfire Studios，今日清晨在 PC Gaming Show 2026 直播節目中，公開開發中新作《方舟高塔（暫譯，Arkheron）》研發團隊幕後影片，帶領玩....",
+                                          "date":  "Mon, 08 Jun 2026 18:33:33 +0800"
+                                      },
+                                      {
+                                          "title_zh":  "",
                                           "title":  "新款動作遊戲《血地牢》公開新宣傳影片 在鮮血與怪獸之間展開極限跑酷生存",
                                           "link":  "https://gnn.gamer.com.tw/detail.php?sn=306309",
                                           "desc":  "開發團隊 Messhof 在 Day of the Devs: Summer Game Fest Edition 發表會公開新作《血地牢（Blood Dungeon）》宣傳影片，本作將於 2026 年夏末發售，並登陸 PC、PlayStation 5 與 Xbox Series X|S 平台，目前可於 Stea....",
@@ -55,13 +62,6 @@
                                           "link":  "https://gnn.gamer.com.tw/detail.php?sn=306308",
                                           "desc":  "酷思特文創（Crespirit）與不卡關遊戲設計（No Stuck Game Studio）宣布，旗下彈幕動作遊戲《最後指令：B-Side》釋出免費更新，並將參加 Steam 彈幕節。\n\n \n\n\n\n\n\n\n\n \n\n　　《最後指令》是款結合了經典遊戲《貪食蛇》和「彈幕」要素的動作遊戲，玩家必須操....",
                                           "date":  "Mon, 08 Jun 2026 18:14:21 +0800"
-                                      },
-                                      {
-                                          "title_zh":  "",
-                                          "title":  "《三國觀滄海》官方網站即將正式上線 即日展開「爭鋒測試」招募",
-                                          "link":  "https://gnn.gamer.com.tw/detail.php?sn=306307",
-                                          "desc":  "由彈指宇宙工作室《三國望神州》團隊打造的《三國觀滄海》預告遊戲官網即將上線，官方同步宣布將於 6 月 18 日（四）在 Android 平台限時開放「爭鋒測試」活動。本次測試為刪檔測試，玩家填寫招募問卷即有機會獲得限量測試資格。\n\n\n \n\n\n\n\n\n \n\n\n\n \n\n\n【以下內容為廠商....",
-                                          "date":  "Mon, 08 Jun 2026 18:12:58 +0800"
                                       }
                                   ]
                     },
@@ -98,8 +98,7 @@
                                   ]
                     },
                     {
-                        "ok":  false,
-                        "error":  "遠端伺服器傳回一個錯誤: (429) Too Many Requests。",
+                        "ok":  true,
                         "source":  {
                                        "color":  "#16a085",
                                        "url":  "https://mobilegamer.biz/feed/",
@@ -107,7 +106,27 @@
                                        "id":  "mobilegamer"
                                    },
                         "items":  [
-
+                                      {
+                                          "title_zh":  "",
+                                          "title":  "Supercell has killed one of its US game projects, and the other is MIA",
+                                          "link":  "https://mobilegamer.biz/supercell-has-killed-one-of-its-us-game-projects-and-the-other-is-mia/",
+                                          "desc":  "The game Steve Desilets and Matt Mocarski were working on is definitely closed, while most staff working on the other US-based game departed months ago, it seem",
+                                          "date":  "Mon, 08 Jun 2026 10:24:52 +0000"
+                                      },
+                                      {
+                                          "title_zh":  "",
+                                          "title":  "The soft launch games you need to know about from Playrix, Century, Zynga and more",
+                                          "link":  "https://mobilegamer.biz/the-soft-launch-games-you-need-to-know-about/",
+                                          "desc":  "Take a peek at the games in testing from the mobile games industry’s top publishers.",
+                                          "date":  "Sun, 07 Jun 2026 23:01:00 +0000"
+                                      },
+                                      {
+                                          "title_zh":  "",
+                                          "title":  "Supercell to fully acquire Merge Mansion maker Metacore amid restructure, with 160 jobs at risk",
+                                          "link":  "https://mobilegamer.biz/supercell-to-fully-acquire-merge-mansion-maker-metacore-as-it-restructure-with-160-jobs-at-risk/",
+                                          "desc":  "UPDATE: Metacore has now confirmed that it\u0027ll close its offices in Germany and Sweden and there will be 159 job cuts in Finland. The Supercell acquisition remai",
+                                          "date":  "Fri, 05 Jun 2026 12:39:53 +0000"
+                                      }
                                   ]
                     },
                     {
@@ -198,9 +217,165 @@
                       ],
     "rankings":  [
                      {
+                         "title":  "iOS 台灣 · 模擬類免費榜",
+                         "self":  {
+                                      "rank":  10
+                                  },
+                         "items":  [
+                                       {
+                                           "artist":  "Century Games Pte. Ltd.",
+                                           "rank":  1,
+                                           "link":  "https://apps.apple.com/tw/app/%E5%AF%92%E9%9C%9C%E5%95%9F%E7%A4%BA%E9%8C%84/id6443575749?uo=2",
+                                           "name":  "寒霜啟示錄",
+                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e5/1e/1d/e51e1db7-4655-6bb8-9441-af76dbfd291c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+                                       },
+                                       {
+                                           "artist":  "FLORAL GAMES LIMITED",
+                                           "rank":  2,
+                                           "link":  "https://apps.apple.com/tw/app/%E6%88%91%E7%9A%84%E8%8A%B1%E5%9C%92%E4%B8%96%E7%95%8C/id6751560944?uo=2",
+                                           "name":  "我的花園世界",
+                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5d/b3/4c/5db34c8c-56b4-dd4b-8ca4-2aa1deb22ed3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+                                       },
+                                       {
+                                           "artist":  "NEOWIZ",
+                                           "rank":  3,
+                                           "link":  "https://apps.apple.com/tw/app/%E8%B2%93%E5%92%AA%E5%92%8C%E6%B9%AF-%E9%AD%94%E6%B3%95%E8%88%87%E7%BE%8E%E9%A3%9F/id6446347021?uo=2",
+                                           "name":  "貓咪和湯 : 魔法與美食",
+                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/84/7e/30/847e3055-da80-0924-9248-262163a5012c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+                                       },
+                                       {
+                                           "artist":  "Shimmer Games Co., Ltd.",
+                                           "rank":  4,
+                                           "link":  "https://apps.apple.com/tw/app/%E6%88%91%E8%A6%81%E7%95%B6%E6%88%BF%E6%9D%B1/id1618888667?uo=2",
+                                           "name":  "我要當房東",
+                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a1/51/48/a151485b-9fe4-4d6e-2229-038741955b72/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png"
+                                       },
+                                       {
+                                           "artist":  "XD Entertainment Co., Ltd.",
+                                           "rank":  5,
+                                           "link":  "https://apps.apple.com/tw/app/%E5%BF%83%E5%8B%95%E5%B0%8F%E9%8E%AE/id6746151928?uo=2",
+                                           "name":  "心動小鎮",
+                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1e/e8/a4/1ee8a497-a74e-9323-9d3e-85c1ef908fed/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+                                       },
+                                       {
+                                           "artist":  "Happibits",
+                                           "rank":  6,
+                                           "link":  "https://apps.apple.com/tw/app/%E6%91%A9%E5%A5%87%E6%96%99%E7%90%86-%E4%B8%BB%E9%A1%8C%E9%A4%90%E5%BB%B3/id1643509748?uo=2",
+                                           "name":  "摩奇料理 主題餐廳",
+                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/ff/8a/07ff8af1-3488-5c81-49db-bff0dbaa95ff/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+                                       },
+                                       {
+                                           "artist":  "SINGAPORE JUST GAME TECHNOLOGY PTE.LTD.",
+                                           "rank":  7,
+                                           "link":  "https://apps.apple.com/tw/app/%E5%8F%AF%E7%8D%84%E4%B8%8D%E5%8F%AF%E5%9B%9A/id6738469826?uo=2",
+                                           "name":  "可獄不可囚",
+                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f3/b2/41/f3b2418f-93f1-91b0-0518-e49c971da711/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+                                       },
+                                       {
+                                           "artist":  "GUANHAI",
+                                           "rank":  8,
+                                           "link":  "https://apps.apple.com/tw/app/%E8%80%81%E7%88%B9%E7%86%B1%E7%82%92%E5%BA%97/id6444692469?uo=2",
+                                           "name":  "老爹熱炒店",
+                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/da/40/b3/da40b3b0-0925-226d-8794-93c3c4ba5acb/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png"
+                                       },
+                                       {
+                                           "artist":  "LINE Corporation",
+                                           "rank":  9,
+                                           "link":  "https://apps.apple.com/tw/app/line-%E7%86%8A%E5%A4%A7%E8%BE%B2%E5%A0%B4/id949344041?uo=2",
+                                           "name":  "LINE 熊大農場",
+                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/10/d5/cb/10d5cba3-ba42-ec05-cf89-68f4f43a5e33/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+                                       },
+                                       {
+                                           "artist":  "Gamesofa Inc.",
+                                           "rank":  10,
+                                           "link":  "https://apps.apple.com/tw/app/%E8%B2%93%E5%92%AA%E9%80%A0%E5%92%96-%E6%9C%89%E6%95%85%E4%BA%8B%E7%9A%84%E8%B2%93%E5%92%AA%E5%92%96%E5%95%A1%E5%BB%B3/id6502926371?uo=2",
+                                           "name":  "貓咪造咖－有故事的貓咪咖啡廳",
+                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/51/fd/09/51fd09da-a455-4477-1263-0ca6397e483a/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png"
+                                       }
+                                   ]
+                     },
+                     {
+                         "title":  "iOS 台灣 · 模擬類暢銷榜",
+                         "self":  {
+                                      "rank":  33
+                                  },
+                         "items":  [
+                                       {
+                                           "artist":  "Century Games Pte. Ltd.",
+                                           "rank":  1,
+                                           "link":  "https://apps.apple.com/tw/app/%E5%AF%92%E9%9C%9C%E5%95%9F%E7%A4%BA%E9%8C%84/id6443575749?uo=2",
+                                           "name":  "寒霜啟示錄",
+                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e5/1e/1d/e51e1db7-4655-6bb8-9441-af76dbfd291c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+                                       },
+                                       {
+                                           "artist":  "INFOLD PTE. LTD.",
+                                           "rank":  2,
+                                           "link":  "https://apps.apple.com/tw/app/%E6%88%80%E8%88%87%E6%B7%B1%E7%A9%BA/id6443468077?uo=2",
+                                           "name":  "戀與深空",
+                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1c/75/3c/1c753c1e-470c-58fe-40a8-14f5ec604d67/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+                                       },
+                                       {
+                                           "artist":  "XD Entertainment Co., Ltd.",
+                                           "rank":  3,
+                                           "link":  "https://apps.apple.com/tw/app/%E5%BF%83%E5%8B%95%E5%B0%8F%E9%8E%AE/id6746151928?uo=2",
+                                           "name":  "心動小鎮",
+                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1e/e8/a4/1ee8a497-a74e-9323-9d3e-85c1ef908fed/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+                                       },
+                                       {
+                                           "artist":  "Com2uS Corp.",
+                                           "rank":  4,
+                                           "link":  "https://apps.apple.com/tw/app/mlb-9%E5%B1%80%E8%81%B7%E6%A3%9226/id1059665257?uo=2",
+                                           "name":  "MLB：9局職棒26",
+                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/da/0f/84/da0f841f-a8b9-3682-4ff0-cf1244ccde13/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+                                       },
+                                       {
+                                           "artist":  "ponos corporation",
+                                           "rank":  5,
+                                           "link":  "https://apps.apple.com/tw/app/%E8%B2%93%E5%92%AA%E5%A4%A7%E6%88%B0%E7%88%AD/id971601423?uo=2",
+                                           "name":  "貓咪大戰爭",
+                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a0/43/b4/a043b414-63be-f957-edd6-27c15c21b4c6/AppIcon-tw-1x_U007epad-0-1-85-220-0.png/100x100bb.png"
+                                       },
+                                       {
+                                           "artist":  "WILD CALY PTE. LTD.",
+                                           "rank":  6,
+                                           "link":  "https://apps.apple.com/tw/app/nba%E5%B7%94%E5%B3%B0%E5%B0%8D%E6%B1%BA/id6737599263?uo=2",
+                                           "name":  "NBA巔峰對決",
+                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2e/aa/5f/2eaa5f9d-6055-49d8-8ef5-ab5ce4f3e17d/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/100x100bb.png"
+                                       },
+                                       {
+                                           "artist":  "FLORAL GAMES LIMITED",
+                                           "rank":  7,
+                                           "link":  "https://apps.apple.com/tw/app/%E6%88%91%E7%9A%84%E8%8A%B1%E5%9C%92%E4%B8%96%E7%95%8C/id6751560944?uo=2",
+                                           "name":  "我的花園世界",
+                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5d/b3/4c/5db34c8c-56b4-dd4b-8ca4-2aa1deb22ed3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+                                       },
+                                       {
+                                           "artist":  "HAEGIN Co., Ltd.",
+                                           "rank":  8,
+                                           "link":  "https://apps.apple.com/tw/app/%E5%A4%A9%E5%A4%A9%E7%8E%A9%E6%A8%82%E5%9C%92-play-together/id1402384531?uo=2",
+                                           "name":  "天天玩樂園 (Play Together)",
+                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/45/27/ad/4527ad9d-96eb-6a55-3af0-728796554981/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+                                       },
+                                       {
+                                           "artist":  "Com2uS Corp.",
+                                           "rank":  9,
+                                           "link":  "https://apps.apple.com/tw/app/mlb-9%E5%B1%80%E8%81%B7%E6%A3%92-%E5%8B%81%E6%97%85%E5%B0%8D%E6%B1%BA-26/id1580691683?uo=2",
+                                           "name":  "MLB 9局職棒 勁旅對決 26",
+                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/10/fe/d2/10fed2c3-76b8-1418-b4dc-cbe0ac274b14/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+                                       },
+                                       {
+                                           "artist":  "YOOZOO (SINGAPORE) PTE. LTD.",
+                                           "rank":  10,
+                                           "link":  "https://apps.apple.com/tw/app/infinity-kingdom/id1487451427?uo=2",
+                                           "name":  "Infinity Kingdom",
+                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d6/0b/15/d60b15ab-c1fa-6a96-86f0-c3c28ac1071a/GameIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png"
+                                       }
+                                   ]
+                     },
+                     {
                          "title":  "iOS 台灣 · 休閒類免費榜",
                          "self":  {
-                                      "rank":  65
+                                      "rank":  67
                                   },
                          "items":  [
                                        {
@@ -267,11 +442,11 @@
                                            "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a7/50/6f/a7506fa2-0d9f-9f6e-70f1-8fb39631fadb/xueguai-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png"
                                        },
                                        {
-                                           "artist":  "BINGCHUAN NETWORK (HONG KONG) COMPANY LIMITED",
+                                           "artist":  "Lessmore GmbH",
                                            "rank":  10,
-                                           "link":  "https://apps.apple.com/tw/app/%E6%9C%80%E7%B5%82%E6%9B%99%E5%85%89-last-light/id6754688265?uo=2",
-                                           "name":  "最終曙光（Last Light）",
-                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/21/78/4a/21784ad0-178e-f18c-620f-eb7a7990c3ac/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+                                           "link":  "https://apps.apple.com/tw/app/arrows-puzzle-escape/id6748397500?uo=2",
+                                           "name":  "Arrows – Puzzle Escape",
+                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4a/2a/32/4a2a329c-7d3d-74c6-1d39-373a32b07027/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
                                        }
                                    ]
                      },
