@@ -1,286 +1,307 @@
 {
-  "updated": "2026-06-07T10:18:15Z",
-  "sources": [
-    {
-      "source": {
-        "id": "bahamut",
-        "name": "巴哈姆特 GNN",
-        "color": "#8e44ad",
-        "url": "https://gnn.gamer.com.tw/rss.xml"
-      },
-      "items": [
-        {
-          "title": "《小小夢魘 3》DLC〈幕後〉預定 6/12 上線 帶來全新謎題與挑戰",
-          "title_zh": "",
-          "link": "https://gnn.gamer.com.tw/detail.php?sn=306212",
-          "date": "Sun, 07 Jun 2026 15:51:22 +0800",
-          "desc": "萬代南夢宮娛樂宣布，懸疑冒險遊戲《小小夢魘 3》的 DLC〈幕後〉將於 6 月 12 日在全平台版本推出，帶來全新謎題與挑戰。玩家將進入嘉年華號最黑暗的地方，與全新角色相遇並面對嶄新的威脅。\n\n \n\n\n\n\n\n\n\n \n\n\n\n\n\n \n\n\n　　在 DLC〈幕後〉中，主角將會遇見戴著頭燈帽子...."
-        },
-        {
-          "title": "開放世界生物捕捉 ARPG《伊莫》曝光新宣傳影片 全球「握爪測試」即日起展開招募",
-          "title_zh": "",
-          "link": "https://gnn.gamer.com.tw/detail.php?sn=306211",
-          "date": "Sun, 07 Jun 2026 10:00:01 +0800",
-          "desc": "由爪印工作室（Pawprint Studio）開發的多人線上捉寵大世界 RPG《伊莫（Aniimo）》於今日 Summer Game Fest 期間的 Future Games Show 線上直播中公開新影片，同時，官方宣布全球範圍內限量刪檔封閉測試「握爪測試」招募活動正式啟動。\n\n \n\n\n\n\n\n\n\n...."
-        }
-      ],
-      "ok": true
-    },
-    {
-      "source": {
-        "id": "pocketgamer",
-        "name": "Pocket Gamer Biz",
-        "color": "#2980b9",
-        "url": "https://www.pocketgamer.biz/rss/"
-      },
-      "items": [
-        {
-          "title": "New release roundup: Game of Thrones: Dragonfire, Skeletor: Until Next Time and more",
-          "title_zh": "",
-          "link": "https://www.pocketgamer.biz/new-release-roundup-game-of-thrones-dragonfire-skeletor-until-next-time-and-more/",
-          "date": "Fri, 05 Jun 2026 15:30:00 +0100",
-          "desc": "While the deals and the stats of the gaming world are important, nothing would happen without the research, funding and, of course, development that goes into making a great game.\n"
-        },
-        {
-          "title": "A new era for James Bond games and Pokémon Champions’ mobile expansion | Week in Views",
-          "title_zh": "",
-          "link": "https://www.pocketgamer.biz/a-new-era-for-james-bond-games-and-pokmon-champions-mobile-expansion-week-in-views/",
-          "date": "Fri, 05 Jun 2026 15:00:00 +0100",
-          "desc": "The games industry moves quickly and while stories may come and go there are some that we just can't let go of&hellip;\n\nSo, to give those particularly thorny topics a further going"
-        }
-      ],
-      "ok": true
-    },
-    {
-      "source": {
-        "id": "mobilegamer",
-        "name": "MobileGamer.biz",
-        "color": "#16a085",
-        "url": "https://mobilegamer.biz/feed/"
-      },
-      "items": [
-        {
-          "title": "New game digest: Game of Thrones, FIFA, Pokémon, Masters of the Universe, Talking Tom, Barbie, more",
-          "title_zh": "",
-          "link": "https://mobilegamer.biz/new-game-digest-game-of-thrones-fifa-pokemon-masters-of-the-universe-talking-tom-barbie-more/",
-          "date": "Fri, 05 Jun 2026 07:36:19 +0000",
-          "desc": "There's also new games from Noodlecake and Nuverse plus a load of games participating in the Green Game Jam in this week's round-up."
-        },
-        {
-          "title": "Pokémon Champions is coming to mobile on June 17",
-          "title_zh": "",
-          "link": "https://mobilegamer.biz/pokemon-champions-is-coming-to-mobile-on-june-17/",
-          "date": "Thu, 04 Jun 2026 11:35:36 +0000",
-          "desc": "Preregistration is live now on iOS and Android after the arena battler’s Nintendo-first launch in April."
-        }
-      ],
-      "ok": true
-    },
-    {
-      "source": {
-        "id": "dof",
-        "name": "Deconstructor of Fun",
-        "color": "#27ae60",
-        "url": "https://www.deconstructoroffun.com/blog?format=rss"
-      },
-      "items": [
-        {
-          "title": "Nobody Told You This About Consulting",
-          "title_zh": "",
-          "link": "https://www.deconstructoroffun.com/blog/nobody-told-you-this-about-consulting",
-          "date": "Mon, 25 May 2026 11:12:49 +0000",
-          "desc": "Why thousands of game industry veterans are turning to consulting"
-        },
-        {
-          "title": "What I Learned About Building Companies From the People Who Funded Mine",
-          "title_zh": "",
-          "link": "https://www.deconstructoroffun.com/blog/what-i-learned-about-building-companies-from-the-people-who-funded-mine",
-          "date": "Mon, 11 May 2026 18:51:41 +0000",
-          "desc": "A reflection on what truly makes founders and startups succeed beyond \nexperience alone."
-        }
-      ],
-      "ok": true
-    },
-    {
-      "source": {
-        "id": "naavik",
-        "name": "Naavik",
-        "color": "#d35400",
-        "url": "https://naavik.co/feed/"
-      },
-      "items": [],
-      "ok": false,
-      "error": "mismatched tag: line 93, column 2"
-    }
-  ],
-  "insights": [],
-  "opportunities": [],
-  "rankings": [
-    {
-      "id": "ios_tw_grossing",
-      "title": "iOS 台灣 · 休閒類暢銷榜",
-      "items": [
-        {
-          "rank": 1,
-          "name": "Pikmin Bloom",
-          "artist": "Niantic, Inc.",
-          "link": "https://apps.apple.com/tw/app/pikmin-bloom/id1556357398?uo=2",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fa/f3/6f/faf36fe7-9e92-ee7e-1e0c-2b076563202f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
-        },
-        {
-          "rank": 2,
-          "name": "緋聞港口：合併&故事",
-          "artist": "Microfun Limited",
-          "link": "https://apps.apple.com/tw/app/%E7%B7%8B%E8%81%9E%E6%B8%AF%E5%8F%A3-%E5%90%88%E4%BD%B5-%E6%95%85%E4%BA%8B/id1623318294?uo=2",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/50/79/49/50794992-7b5c-fc6a-9858-fbf583b6acba/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
-        },
-        {
-          "rank": 3,
-          "name": "Coin Master",
-          "artist": "Moon Active",
-          "link": "https://apps.apple.com/tw/app/coin-master/id406889139?uo=2",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fb/da/f4/fbdaf4f9-4f3d-fa4e-7dd3-ab74ecc2be0d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
-        },
-        {
-          "rank": 4,
-          "name": "糖果傳奇",
-          "artist": "King",
-          "link": "https://apps.apple.com/tw/app/%E7%B3%96%E6%9E%9C%E5%82%B3%E5%A5%87/id553834731?uo=2",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f6/cb/2e/f6cb2eca-45a3-bee4-d022-879d51f87a9c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
-        },
-        {
-          "rank": 5,
-          "name": "《荒野亂鬥》",
-          "artist": "Supercell",
-          "link": "https://apps.apple.com/tw/app/%E8%8D%92%E9%87%8E%E4%BA%82%E9%AC%A5/id1229016807?uo=2",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9a/ec/30/9aec30a3-8cd3-bd88-2491-c2c1e0946c4c/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png"
-        },
-        {
-          "rank": 6,
-          "name": "嚦咕麻將-戰神賽特、雷神之錘、超八、賽馬、麻將、魚機、老虎機",
-          "artist": "BOGE NETWORK TECHNOLOGY LTD.",
-          "link": "https://apps.apple.com/tw/app/%E5%9A%A6%E5%92%95%E9%BA%BB%E5%B0%87-%E6%88%B0%E7%A5%9E%E8%B3%BD%E7%89%B9-%E9%9B%B7%E7%A5%9E%E4%B9%8B%E9%8C%98-%E8%B6%85%E5%85%AB-%E8%B3%BD%E9%A6%AC-%E9%BA%BB%E5%B0%87-%E9%AD%9A%E6%A9%9F-%E8%80%81%E8%99%8E%E6%A9%9F/id6449517782?uo=2",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1f/5f/85/1f5f855d-450f-e5a7-12f3-f0e6d052db43/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
-        },
-        {
-          "rank": 7,
-          "name": "運氣拚輸贏",
-          "artist": "111%",
-          "link": "https://apps.apple.com/tw/app/%E9%81%8B%E6%B0%A3%E6%8B%9A%E8%BC%B8%E8%B4%8F/id6482291732?uo=2",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bc/20/4b/bc204b7b-e077-4421-f5ef-93eb52f1887d/AppIcon-0-0-1x_U007emarketing-0-5-85-220.png/100x100bb.png"
-        },
-        {
-          "rank": 8,
-          "name": "同盟塔防戰：並肩作戰",
-          "artist": "SuperMagic",
-          "link": "https://apps.apple.com/tw/app/%E5%90%8C%E7%9B%9F%E5%A1%94%E9%98%B2%E6%88%B0-%E4%B8%A6%E8%82%A9%E4%BD%9C%E6%88%B0/id6503702666?uo=2",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dd/5a/4b/dd5a4be3-f7f1-334e-ceaa-1f9fb600d3a1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
-        },
-        {
-          "rank": 9,
-          "name": "夢幻花園 (Gardenscapes)",
-          "artist": "Playrix",
-          "link": "https://apps.apple.com/tw/app/%E5%A4%A2%E5%B9%BB%E8%8A%B1%E5%9C%92-gardenscapes/id1105855019?uo=2",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/66/a2/bf/66a2bfb6-ce53-72f3-c86c-be40ca70e245/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
-        },
-        {
-          "rank": 10,
-          "name": "弓箭傳說2",
-          "artist": "HABBY",
-          "link": "https://apps.apple.com/tw/app/%E5%BC%93%E7%AE%AD%E5%82%B3%E8%AA%AA2/id6502820653?uo=2",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/12/fc/0b/12fc0bad-65ae-e8d6-2ac0-f1736cc6ce87/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
-        }
-      ],
-      "self": {
-        "rank": 49,
-        "name": "貓咪造咖",
-        "artist": "Gamesofa Inc.",
-        "link": "https://apps.apple.com/tw/app/%E8%B2%93%E5%92%AA%E9%80%A0%E5%92%96-%E6%9C%89%E6%95%85%E4%BA%8B%E7%9A%84%E8%B2%93%E5%92%AA%E5%92%96%E5%95%A1%E5%BB%B3/id6502926371?uo=2",
-        "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/51/fd/09/51fd09da-a455-4477-1263-0ca6397e483a/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png"
-      }
-    },
-    {
-      "id": "ios_tw_free",
-      "title": "iOS 台灣 · 休閒類免費榜",
-      "items": [
-        {
-          "rank": 1,
-          "name": "Pikmin Bloom",
-          "artist": "Niantic, Inc.",
-          "link": "https://apps.apple.com/tw/app/pikmin-bloom/id1556357398?uo=2",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fa/f3/6f/faf36fe7-9e92-ee7e-1e0c-2b076563202f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
-        },
-        {
-          "rank": 2,
-          "name": "粉彩世界：合作逃生",
-          "artist": "Erwin .",
-          "link": "https://apps.apple.com/tw/app/%E7%B2%89%E5%BD%A9%E4%B8%96%E7%95%8C-%E5%90%88%E4%BD%9C%E9%80%83%E7%94%9F/id6733252780?uo=2",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c6/db/a1/c6dba13e-ece9-65de-37ee-a89922896551/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
-        },
-        {
-          "rank": 3,
-          "name": "Family Style: Co-op Kitchen",
-          "artist": "Co-op Kitchen LLC",
-          "link": "https://apps.apple.com/tw/app/family-style-co-op-kitchen/id1484208629?uo=2",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7d/dd/b7/7dddb7b9-d221-759d-8824-1a9ecfe4514b/AppIcon-1x_U007ephone-0-11-0-85-220-0.png/100x100bb.png"
-        },
-        {
-          "rank": 4,
-          "name": "Royal Kingdom",
-          "artist": "Dream Games",
-          "link": "https://apps.apple.com/tw/app/royal-kingdom/id1606549505?uo=2",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b7/d5/cc/b7d5cc67-6697-b4ea-9749-7108da704d4f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
-        },
-        {
-          "rank": 5,
-          "name": "Block Blast!",
-          "artist": "Hungry Studio",
-          "link": "https://apps.apple.com/tw/app/block-blast/id1617391485?uo=2",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/56/f0/88/56f088f6-46d2-0988-b1da-d71868b9f280/AppIcon-0-0-1x_U007emarketing-0-11-0-sRGB-85-220.png/100x100bb.png"
-        },
-        {
-          "rank": 6,
-          "name": "《荒野亂鬥》",
-          "artist": "Supercell",
-          "link": "https://apps.apple.com/tw/app/%E8%8D%92%E9%87%8E%E4%BA%82%E9%AC%A5/id1229016807?uo=2",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9a/ec/30/9aec30a3-8cd3-bd88-2491-c2c1e0946c4c/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png"
-        },
-        {
-          "rank": 7,
-          "name": "最終曙光（Last Light）",
-          "artist": "BINGCHUAN NETWORK (HONG KONG) COMPANY LIMITED",
-          "link": "https://apps.apple.com/tw/app/%E6%9C%80%E7%B5%82%E6%9B%99%E5%85%89-last-light/id6754688265?uo=2",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/21/78/4a/21784ad0-178e-f18c-620f-eb7a7990c3ac/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
-        },
-        {
-          "rank": 8,
-          "name": "靠裝勇者：背包合成RPG",
-          "artist": "5minlab Co., Ltd.",
-          "link": "https://apps.apple.com/tw/app/%E9%9D%A0%E8%A3%9D%E5%8B%87%E8%80%85-%E8%83%8C%E5%8C%85%E5%90%88%E6%88%90rpg/id6755585789?uo=2",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/96/7f/79/967f7952-5e75-04ec-2fdb-6f3df57125ea/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
-        },
-        {
-          "rank": 9,
-          "name": "食光旅行",
-          "artist": "Century Games Pte. Ltd.",
-          "link": "https://apps.apple.com/tw/app/%E9%A3%9F%E5%85%89%E6%97%85%E8%A1%8C/id6471045672?uo=2",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6d/40/f2/6d40f24d-590e-4562-a655-4f2c03f3bc5e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
-        },
-        {
-          "rank": 10,
-          "name": "點點英雄：骰子傳說",
-          "artist": "HABBY",
-          "link": "https://apps.apple.com/tw/app/%E9%BB%9E%E9%BB%9E%E8%8B%B1%E9%9B%84-%E9%AA%B0%E5%AD%90%E5%82%B3%E8%AA%AA/id6740966864?uo=2",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a7/50/6f/a7506fa2-0d9f-9f6e-70f1-8fb39631fadb/xueguai-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png"
-        }
-      ],
-      "self": {
-        "rank": 70,
-        "name": "貓咪造咖",
-        "artist": "Gamesofa Inc.",
-        "link": "https://apps.apple.com/tw/app/%E8%B2%93%E5%92%AA%E9%80%A0%E5%92%96-%E6%9C%89%E6%95%85%E4%BA%8B%E7%9A%84%E8%B2%93%E5%92%AA%E5%92%96%E5%95%A1%E5%BB%B3/id6502926371?uo=2",
-        "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/51/fd/09/51fd09da-a455-4477-1263-0ca6397e483a/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png"
-      }
-    }
-  ]
+    "updated":  "2026-06-07T10:18:15Z",
+    "sources":  [
+                    {
+                        "source":  {
+                                       "id":  "bahamut",
+                                       "name":  "巴哈姆特 GNN",
+                                       "color":  "#8e44ad",
+                                       "url":  "https://gnn.gamer.com.tw/rss.xml"
+                                   },
+                        "items":  [
+                                      {
+                                          "title":  "《小小夢魘 3》DLC〈幕後〉預定 6/12 上線 帶來全新謎題與挑戰",
+                                          "title_zh":  "",
+                                          "link":  "https://gnn.gamer.com.tw/detail.php?sn=306212",
+                                          "date":  "Sun, 07 Jun 2026 15:51:22 +0800",
+                                          "desc":  "萬代南夢宮娛樂宣布，懸疑冒險遊戲《小小夢魘 3》的 DLC〈幕後〉將於 6 月 12 日在全平台版本推出，帶來全新謎題與挑戰。玩家將進入嘉年華號最黑暗的地方，與全新角色相遇並面對嶄新的威脅。\n\n \n\n\n\n\n\n\n\n \n\n\n\n\n\n \n\n\n　　在 DLC〈幕後〉中，主角將會遇見戴著頭燈帽子...."
+                                      },
+                                      {
+                                          "title":  "開放世界生物捕捉 ARPG《伊莫》曝光新宣傳影片 全球「握爪測試」即日起展開招募",
+                                          "title_zh":  "",
+                                          "link":  "https://gnn.gamer.com.tw/detail.php?sn=306211",
+                                          "date":  "Sun, 07 Jun 2026 10:00:01 +0800",
+                                          "desc":  "由爪印工作室（Pawprint Studio）開發的多人線上捉寵大世界 RPG《伊莫（Aniimo）》於今日 Summer Game Fest 期間的 Future Games Show 線上直播中公開新影片，同時，官方宣布全球範圍內限量刪檔封閉測試「握爪測試」招募活動正式啟動。\n\n \n\n\n\n\n\n\n\n...."
+                                      }
+                                  ],
+                        "ok":  true
+                    },
+                    {
+                        "source":  {
+                                       "id":  "pocketgamer",
+                                       "name":  "Pocket Gamer Biz",
+                                       "color":  "#2980b9",
+                                       "url":  "https://www.pocketgamer.biz/rss/"
+                                   },
+                        "items":  [
+                                      {
+                                          "title":  "New release roundup: Game of Thrones: Dragonfire, Skeletor: Until Next Time and more",
+                                          "title_zh":  "",
+                                          "link":  "https://www.pocketgamer.biz/new-release-roundup-game-of-thrones-dragonfire-skeletor-until-next-time-and-more/",
+                                          "date":  "Fri, 05 Jun 2026 15:30:00 +0100",
+                                          "desc":  "While the deals and the stats of the gaming world are important, nothing would happen without the research, funding and, of course, development that goes into making a great game.\n"
+                                      },
+                                      {
+                                          "title":  "A new era for James Bond games and Pokémon Champions’ mobile expansion | Week in Views",
+                                          "title_zh":  "",
+                                          "link":  "https://www.pocketgamer.biz/a-new-era-for-james-bond-games-and-pokmon-champions-mobile-expansion-week-in-views/",
+                                          "date":  "Fri, 05 Jun 2026 15:00:00 +0100",
+                                          "desc":  "The games industry moves quickly and while stories may come and go there are some that we just can\u0027t let go of\u0026hellip;\n\nSo, to give those particularly thorny topics a further going"
+                                      }
+                                  ],
+                        "ok":  true
+                    },
+                    {
+                        "source":  {
+                                       "id":  "mobilegamer",
+                                       "name":  "MobileGamer.biz",
+                                       "color":  "#16a085",
+                                       "url":  "https://mobilegamer.biz/feed/"
+                                   },
+                        "items":  [
+                                      {
+                                          "title":  "New game digest: Game of Thrones, FIFA, Pokémon, Masters of the Universe, Talking Tom, Barbie, more",
+                                          "title_zh":  "",
+                                          "link":  "https://mobilegamer.biz/new-game-digest-game-of-thrones-fifa-pokemon-masters-of-the-universe-talking-tom-barbie-more/",
+                                          "date":  "Fri, 05 Jun 2026 07:36:19 +0000",
+                                          "desc":  "There\u0027s also new games from Noodlecake and Nuverse plus a load of games participating in the Green Game Jam in this week\u0027s round-up."
+                                      },
+                                      {
+                                          "title":  "Pokémon Champions is coming to mobile on June 17",
+                                          "title_zh":  "",
+                                          "link":  "https://mobilegamer.biz/pokemon-champions-is-coming-to-mobile-on-june-17/",
+                                          "date":  "Thu, 04 Jun 2026 11:35:36 +0000",
+                                          "desc":  "Preregistration is live now on iOS and Android after the arena battler’s Nintendo-first launch in April."
+                                      }
+                                  ],
+                        "ok":  true
+                    },
+                    {
+                        "source":  {
+                                       "id":  "dof",
+                                       "name":  "Deconstructor of Fun",
+                                       "color":  "#27ae60",
+                                       "url":  "https://www.deconstructoroffun.com/blog?format=rss"
+                                   },
+                        "items":  [
+                                      {
+                                          "title":  "Nobody Told You This About Consulting",
+                                          "title_zh":  "",
+                                          "link":  "https://www.deconstructoroffun.com/blog/nobody-told-you-this-about-consulting",
+                                          "date":  "Mon, 25 May 2026 11:12:49 +0000",
+                                          "desc":  "Why thousands of game industry veterans are turning to consulting"
+                                      },
+                                      {
+                                          "title":  "What I Learned About Building Companies From the People Who Funded Mine",
+                                          "title_zh":  "",
+                                          "link":  "https://www.deconstructoroffun.com/blog/what-i-learned-about-building-companies-from-the-people-who-funded-mine",
+                                          "date":  "Mon, 11 May 2026 18:51:41 +0000",
+                                          "desc":  "A reflection on what truly makes founders and startups succeed beyond \nexperience alone."
+                                      }
+                                  ],
+                        "ok":  true
+                    },
+                    {
+                        "source":  {
+                                       "id":  "naavik",
+                                       "name":  "Naavik",
+                                       "color":  "#d35400",
+                                       "url":  "https://naavik.co/feed/"
+                                   },
+                        "items":  [
+
+                                  ],
+                        "ok":  false,
+                        "error":  "mismatched tag: line 93, column 2"
+                    }
+                ],
+    "insights":  [
+                     "本週新作高度集中在大型 IP（權力遊戲、007、寶可夢、FIFA、芭比、湯姆貓）——授權 IP 仍是手遊吸量主力，提醒原創團隊更要強化角色辨識度與情感連結。",
+                     "《寶可夢 Champions》6/17 登陸行動平台——頭部 IP 持續把核心玩法行動化，行動端仍是擴大受眾的首選戰場。",
+                     "開放世界「生物捕捉」ARPG《伊莫》展開全球測試——收集＋養成的捕捉蒐集框架熱度不減，與休閒養成的蒐集冊邏輯相通。",
+                     "多款話題新作採『軟上線／前測』收集數據再正式發行——分階段測試與數據驅動調校已是降低營運風險的標準做法。",
+                     "《小小夢魘 3》以 DLC 追加謎題與挑戰延續生命週期——用追加內容包維持既有玩家黏著，是長線經營常見手法。"
+                 ],
+    "opportunities":  [
+                          {
+                              "title":  "借勢聯名 IP",
+                              "detail":  "本週 IP 新作扎堆，可評估與療癒系／貓咪相關 IP 做期間限定聯名活動，借外部聲量拉新。"
+                          },
+                          {
+                              "title":  "強化『蒐集捕捉』成就感",
+                              "detail":  "呼應生物捕捉品類熱度，把蒐集冊與貓咪收集做成更有儀式感的階段獎勵，提升養成黏著。"
+                          },
+                          {
+                              "title":  "善用軟上線與前測思維",
+                              "detail":  "大廠普遍分階段測試，新系統可先小範圍灰度測數據再全量推出，降低營運風險。"
+                          }
+                      ],
+    "rankings":  [
+                     {
+                         "id":  "ios_tw_grossing",
+                         "title":  "iOS 台灣 · 休閒類暢銷榜",
+                         "items":  [
+                                       {
+                                           "rank":  1,
+                                           "name":  "Pikmin Bloom",
+                                           "artist":  "Niantic, Inc.",
+                                           "link":  "https://apps.apple.com/tw/app/pikmin-bloom/id1556357398?uo=2",
+                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fa/f3/6f/faf36fe7-9e92-ee7e-1e0c-2b076563202f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+                                       },
+                                       {
+                                           "rank":  2,
+                                           "name":  "緋聞港口：合併\u0026故事",
+                                           "artist":  "Microfun Limited",
+                                           "link":  "https://apps.apple.com/tw/app/%E7%B7%8B%E8%81%9E%E6%B8%AF%E5%8F%A3-%E5%90%88%E4%BD%B5-%E6%95%85%E4%BA%8B/id1623318294?uo=2",
+                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/50/79/49/50794992-7b5c-fc6a-9858-fbf583b6acba/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+                                       },
+                                       {
+                                           "rank":  3,
+                                           "name":  "Coin Master",
+                                           "artist":  "Moon Active",
+                                           "link":  "https://apps.apple.com/tw/app/coin-master/id406889139?uo=2",
+                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fb/da/f4/fbdaf4f9-4f3d-fa4e-7dd3-ab74ecc2be0d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+                                       },
+                                       {
+                                           "rank":  4,
+                                           "name":  "糖果傳奇",
+                                           "artist":  "King",
+                                           "link":  "https://apps.apple.com/tw/app/%E7%B3%96%E6%9E%9C%E5%82%B3%E5%A5%87/id553834731?uo=2",
+                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f6/cb/2e/f6cb2eca-45a3-bee4-d022-879d51f87a9c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+                                       },
+                                       {
+                                           "rank":  5,
+                                           "name":  "《荒野亂鬥》",
+                                           "artist":  "Supercell",
+                                           "link":  "https://apps.apple.com/tw/app/%E8%8D%92%E9%87%8E%E4%BA%82%E9%AC%A5/id1229016807?uo=2",
+                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9a/ec/30/9aec30a3-8cd3-bd88-2491-c2c1e0946c4c/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png"
+                                       },
+                                       {
+                                           "rank":  6,
+                                           "name":  "嚦咕麻將-戰神賽特、雷神之錘、超八、賽馬、麻將、魚機、老虎機",
+                                           "artist":  "BOGE NETWORK TECHNOLOGY LTD.",
+                                           "link":  "https://apps.apple.com/tw/app/%E5%9A%A6%E5%92%95%E9%BA%BB%E5%B0%87-%E6%88%B0%E7%A5%9E%E8%B3%BD%E7%89%B9-%E9%9B%B7%E7%A5%9E%E4%B9%8B%E9%8C%98-%E8%B6%85%E5%85%AB-%E8%B3%BD%E9%A6%AC-%E9%BA%BB%E5%B0%87-%E9%AD%9A%E6%A9%9F-%E8%80%81%E8%99%8E%E6%A9%9F/id6449517782?uo=2",
+                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1f/5f/85/1f5f855d-450f-e5a7-12f3-f0e6d052db43/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+                                       },
+                                       {
+                                           "rank":  7,
+                                           "name":  "運氣拚輸贏",
+                                           "artist":  "111%",
+                                           "link":  "https://apps.apple.com/tw/app/%E9%81%8B%E6%B0%A3%E6%8B%9A%E8%BC%B8%E8%B4%8F/id6482291732?uo=2",
+                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bc/20/4b/bc204b7b-e077-4421-f5ef-93eb52f1887d/AppIcon-0-0-1x_U007emarketing-0-5-85-220.png/100x100bb.png"
+                                       },
+                                       {
+                                           "rank":  8,
+                                           "name":  "同盟塔防戰：並肩作戰",
+                                           "artist":  "SuperMagic",
+                                           "link":  "https://apps.apple.com/tw/app/%E5%90%8C%E7%9B%9F%E5%A1%94%E9%98%B2%E6%88%B0-%E4%B8%A6%E8%82%A9%E4%BD%9C%E6%88%B0/id6503702666?uo=2",
+                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dd/5a/4b/dd5a4be3-f7f1-334e-ceaa-1f9fb600d3a1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+                                       },
+                                       {
+                                           "rank":  9,
+                                           "name":  "夢幻花園 (Gardenscapes)",
+                                           "artist":  "Playrix",
+                                           "link":  "https://apps.apple.com/tw/app/%E5%A4%A2%E5%B9%BB%E8%8A%B1%E5%9C%92-gardenscapes/id1105855019?uo=2",
+                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/66/a2/bf/66a2bfb6-ce53-72f3-c86c-be40ca70e245/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+                                       },
+                                       {
+                                           "rank":  10,
+                                           "name":  "弓箭傳說2",
+                                           "artist":  "HABBY",
+                                           "link":  "https://apps.apple.com/tw/app/%E5%BC%93%E7%AE%AD%E5%82%B3%E8%AA%AA2/id6502820653?uo=2",
+                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/12/fc/0b/12fc0bad-65ae-e8d6-2ac0-f1736cc6ce87/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+                                       }
+                                   ],
+                         "self":  {
+                                      "rank":  49,
+                                      "name":  "貓咪造咖",
+                                      "artist":  "Gamesofa Inc.",
+                                      "link":  "https://apps.apple.com/tw/app/%E8%B2%93%E5%92%AA%E9%80%A0%E5%92%96-%E6%9C%89%E6%95%85%E4%BA%8B%E7%9A%84%E8%B2%93%E5%92%AA%E5%92%96%E5%95%A1%E5%BB%B3/id6502926371?uo=2",
+                                      "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/51/fd/09/51fd09da-a455-4477-1263-0ca6397e483a/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png"
+                                  }
+                     },
+                     {
+                         "id":  "ios_tw_free",
+                         "title":  "iOS 台灣 · 休閒類免費榜",
+                         "items":  [
+                                       {
+                                           "rank":  1,
+                                           "name":  "Pikmin Bloom",
+                                           "artist":  "Niantic, Inc.",
+                                           "link":  "https://apps.apple.com/tw/app/pikmin-bloom/id1556357398?uo=2",
+                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fa/f3/6f/faf36fe7-9e92-ee7e-1e0c-2b076563202f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+                                       },
+                                       {
+                                           "rank":  2,
+                                           "name":  "粉彩世界：合作逃生",
+                                           "artist":  "Erwin .",
+                                           "link":  "https://apps.apple.com/tw/app/%E7%B2%89%E5%BD%A9%E4%B8%96%E7%95%8C-%E5%90%88%E4%BD%9C%E9%80%83%E7%94%9F/id6733252780?uo=2",
+                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c6/db/a1/c6dba13e-ece9-65de-37ee-a89922896551/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+                                       },
+                                       {
+                                           "rank":  3,
+                                           "name":  "Family Style: Co-op Kitchen",
+                                           "artist":  "Co-op Kitchen LLC",
+                                           "link":  "https://apps.apple.com/tw/app/family-style-co-op-kitchen/id1484208629?uo=2",
+                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7d/dd/b7/7dddb7b9-d221-759d-8824-1a9ecfe4514b/AppIcon-1x_U007ephone-0-11-0-85-220-0.png/100x100bb.png"
+                                       },
+                                       {
+                                           "rank":  4,
+                                           "name":  "Royal Kingdom",
+                                           "artist":  "Dream Games",
+                                           "link":  "https://apps.apple.com/tw/app/royal-kingdom/id1606549505?uo=2",
+                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b7/d5/cc/b7d5cc67-6697-b4ea-9749-7108da704d4f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+                                       },
+                                       {
+                                           "rank":  5,
+                                           "name":  "Block Blast!",
+                                           "artist":  "Hungry Studio",
+                                           "link":  "https://apps.apple.com/tw/app/block-blast/id1617391485?uo=2",
+                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/56/f0/88/56f088f6-46d2-0988-b1da-d71868b9f280/AppIcon-0-0-1x_U007emarketing-0-11-0-sRGB-85-220.png/100x100bb.png"
+                                       },
+                                       {
+                                           "rank":  6,
+                                           "name":  "《荒野亂鬥》",
+                                           "artist":  "Supercell",
+                                           "link":  "https://apps.apple.com/tw/app/%E8%8D%92%E9%87%8E%E4%BA%82%E9%AC%A5/id1229016807?uo=2",
+                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9a/ec/30/9aec30a3-8cd3-bd88-2491-c2c1e0946c4c/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png"
+                                       },
+                                       {
+                                           "rank":  7,
+                                           "name":  "最終曙光（Last Light）",
+                                           "artist":  "BINGCHUAN NETWORK (HONG KONG) COMPANY LIMITED",
+                                           "link":  "https://apps.apple.com/tw/app/%E6%9C%80%E7%B5%82%E6%9B%99%E5%85%89-last-light/id6754688265?uo=2",
+                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/21/78/4a/21784ad0-178e-f18c-620f-eb7a7990c3ac/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+                                       },
+                                       {
+                                           "rank":  8,
+                                           "name":  "靠裝勇者：背包合成RPG",
+                                           "artist":  "5minlab Co., Ltd.",
+                                           "link":  "https://apps.apple.com/tw/app/%E9%9D%A0%E8%A3%9D%E5%8B%87%E8%80%85-%E8%83%8C%E5%8C%85%E5%90%88%E6%88%90rpg/id6755585789?uo=2",
+                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/96/7f/79/967f7952-5e75-04ec-2fdb-6f3df57125ea/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+                                       },
+                                       {
+                                           "rank":  9,
+                                           "name":  "食光旅行",
+                                           "artist":  "Century Games Pte. Ltd.",
+                                           "link":  "https://apps.apple.com/tw/app/%E9%A3%9F%E5%85%89%E6%97%85%E8%A1%8C/id6471045672?uo=2",
+                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6d/40/f2/6d40f24d-590e-4562-a655-4f2c03f3bc5e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+                                       },
+                                       {
+                                           "rank":  10,
+                                           "name":  "點點英雄：骰子傳說",
+                                           "artist":  "HABBY",
+                                           "link":  "https://apps.apple.com/tw/app/%E9%BB%9E%E9%BB%9E%E8%8B%B1%E9%9B%84-%E9%AA%B0%E5%AD%90%E5%82%B3%E8%AA%AA/id6740966864?uo=2",
+                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a7/50/6f/a7506fa2-0d9f-9f6e-70f1-8fb39631fadb/xueguai-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png"
+                                       }
+                                   ],
+                         "self":  {
+                                      "rank":  70,
+                                      "name":  "貓咪造咖",
+                                      "artist":  "Gamesofa Inc.",
+                                      "link":  "https://apps.apple.com/tw/app/%E8%B2%93%E5%92%AA%E9%80%A0%E5%92%96-%E6%9C%89%E6%95%85%E4%BA%8B%E7%9A%84%E8%B2%93%E5%92%AA%E5%92%96%E5%95%A1%E5%BB%B3/id6502926371?uo=2",
+                                      "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/51/fd/09/51fd09da-a455-4477-1263-0ca6397e483a/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png"
+                                  }
+                     }
+                 ]
 }
