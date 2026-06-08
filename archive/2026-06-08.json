@@ -97,14 +97,14 @@
                                    },
                         "items":  [
                                       {
-                                          "title_zh":  "",
+                                          "title_zh":  "Embracer 又一次分拆重組",
                                           "title":  "Embracer Splits Again",
                                           "link":  "https://naavik.co/digest/embracer-splits-again/",
                                           "desc":  "Like a cheap pair of pants, Embracer announced that it\u0027s splitting again. In 2027, the company plans to carve out Fellowship Entertainment, the home to The Lord of the Rings, Tomb ",
                                           "date":  "Sun, 07 Jun 2026 17:30:00 +0000"
                                       },
                                       {
-                                          "title_zh":  "",
+                                          "title_zh":  "真實犯罪變成可玩遊戲：解析 Scriptic 的跨平台布局",
                                           "title":  "True Crime, Now Playable: Inside Scriptic’s Cross-Platform Bet",
                                           "link":  "https://naavik.co/podcast/true-crime-now-playable-inside-scriptics-cross-platform-bet/",
                                           "desc":  "Kalie Moore sits down with James Nicholls, Studio Director at Scriptic, to explore one of the most fascinating intersections emerging in entertainment today: true crime, interactiv",
@@ -114,10 +114,29 @@
                     }
                 ],
     "opportunities":  [
-
+                          {
+                              "title":  "放大「離線／放置」的回歸爽感",
+                              "detail":  "呼應 Steam 30 萬人掛機的放置熱潮。例如：玩家回來時用更有儀式感的動畫，呈現離開期間貓咪賺了多少、發生哪些小事，讓「離開再回來」變成期待。"
+                          },
+                          {
+                              "title":  "深化「打造理想咖啡廳」的經營成就感",
+                              "detail":  "呼應《動物園之星 2》等經營模擬的熱度。例如：加入階段性的店面主題改造目標與「改造前後對比」展示，讓玩家有蓋出自己世界的滿足感。"
+                          },
+                          {
+                              "title":  "用「故事」留住玩家",
+                              "detail":  "呼應 Scriptic 把敘事做成可玩體驗。例如：把顧客小故事做成有選擇分支的小劇情，完成後解鎖專屬貓咪或裝飾。"
+                          },
+                          {
+                              "title":  "強化題材辨識度",
+                              "detail":  "呼應獨立新作靠鮮明題材突圍。例如：推出有台灣在地特色或節慶的限定貓咪與故事線，強化「只有這裡才玩得到」的記憶點。"
+                          }
                       ],
     "insights":  [
-
+                     "Steam 上有「30 萬人同時掛機」玩不花時間的放置型遊戲——證明「不用一直盯著、會自己成長」的設計超有黏性，這正是離線收益、放置玩法受歡迎的關鍵。",
+                     "經營模擬大作《動物園之星 2》補齊海陸空、加水族館與鳥舍搶攻年底檔期——「蓋出自己的小世界」這種經營題材熱度不減，持續吸住玩家。",
+                     "遊戲集團 Embracer 又一次分拆重組——大公司「買很多再拆開」說明靠併購硬擴張難維持，把單一強作經營深，比大而雜更穩。",
+                     "Scriptic 把「真實犯罪」做成可互動的故事遊戲、還跨平台推出——把好故事變成玩家能參與的體驗，是吸引非傳統玩家的新路。",
+                     "多款獨立新作主打獵奇題材（《歡迎入教》當邪教教主、《魔術師》魔術 FPS）——市場擁擠下，鮮明獨特的題材本身就是最好的行銷。"
                  ],
     "updated":  "2026-06-08T02:44:29Z",
     "rankings":  [
