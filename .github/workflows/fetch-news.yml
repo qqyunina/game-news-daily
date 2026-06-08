@@ -1,8 +1,10 @@
 name: Morning Briefing
 
 on:
-  schedule:
-    - cron: '0 1 * * *'   # 每天 09:00 台灣時間 (UTC+8)
+  # 排程已改由 Claude 每日排程任務(routine)負責，避免無 API 額度時把內容洗成空白。
+  # 仍保留手動觸發；如要恢復雲端 Actions 自動跑，取消下面註解即可。
+  # schedule:
+  #   - cron: '0 1 * * *'   # 每天 09:00 台灣時間 (UTC+8)
   workflow_dispatch:        # 允許手動觸發
 
 permissions:
