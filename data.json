@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-06-08T10:36:42Z",
+    "updated":  "2026-06-08T10:38:21Z",
     "sources":  [
                     {
                         "ok":  true,
@@ -295,84 +295,6 @@
                                    ]
                      },
                      {
-                         "title":  "iOS 台灣 · 模擬類暢銷榜",
-                         "self":  {
-                                      "rank":  33
-                                  },
-                         "items":  [
-                                       {
-                                           "artist":  "Century Games Pte. Ltd.",
-                                           "rank":  1,
-                                           "link":  "https://apps.apple.com/tw/app/%E5%AF%92%E9%9C%9C%E5%95%9F%E7%A4%BA%E9%8C%84/id6443575749?uo=2",
-                                           "name":  "寒霜啟示錄",
-                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e5/1e/1d/e51e1db7-4655-6bb8-9441-af76dbfd291c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
-                                       },
-                                       {
-                                           "artist":  "INFOLD PTE. LTD.",
-                                           "rank":  2,
-                                           "link":  "https://apps.apple.com/tw/app/%E6%88%80%E8%88%87%E6%B7%B1%E7%A9%BA/id6443468077?uo=2",
-                                           "name":  "戀與深空",
-                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1c/75/3c/1c753c1e-470c-58fe-40a8-14f5ec604d67/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
-                                       },
-                                       {
-                                           "artist":  "XD Entertainment Co., Ltd.",
-                                           "rank":  3,
-                                           "link":  "https://apps.apple.com/tw/app/%E5%BF%83%E5%8B%95%E5%B0%8F%E9%8E%AE/id6746151928?uo=2",
-                                           "name":  "心動小鎮",
-                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1e/e8/a4/1ee8a497-a74e-9323-9d3e-85c1ef908fed/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
-                                       },
-                                       {
-                                           "artist":  "Com2uS Corp.",
-                                           "rank":  4,
-                                           "link":  "https://apps.apple.com/tw/app/mlb-9%E5%B1%80%E8%81%B7%E6%A3%9226/id1059665257?uo=2",
-                                           "name":  "MLB：9局職棒26",
-                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/da/0f/84/da0f841f-a8b9-3682-4ff0-cf1244ccde13/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
-                                       },
-                                       {
-                                           "artist":  "ponos corporation",
-                                           "rank":  5,
-                                           "link":  "https://apps.apple.com/tw/app/%E8%B2%93%E5%92%AA%E5%A4%A7%E6%88%B0%E7%88%AD/id971601423?uo=2",
-                                           "name":  "貓咪大戰爭",
-                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a0/43/b4/a043b414-63be-f957-edd6-27c15c21b4c6/AppIcon-tw-1x_U007epad-0-1-85-220-0.png/100x100bb.png"
-                                       },
-                                       {
-                                           "artist":  "WILD CALY PTE. LTD.",
-                                           "rank":  6,
-                                           "link":  "https://apps.apple.com/tw/app/nba%E5%B7%94%E5%B3%B0%E5%B0%8D%E6%B1%BA/id6737599263?uo=2",
-                                           "name":  "NBA巔峰對決",
-                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2e/aa/5f/2eaa5f9d-6055-49d8-8ef5-ab5ce4f3e17d/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/100x100bb.png"
-                                       },
-                                       {
-                                           "artist":  "FLORAL GAMES LIMITED",
-                                           "rank":  7,
-                                           "link":  "https://apps.apple.com/tw/app/%E6%88%91%E7%9A%84%E8%8A%B1%E5%9C%92%E4%B8%96%E7%95%8C/id6751560944?uo=2",
-                                           "name":  "我的花園世界",
-                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5d/b3/4c/5db34c8c-56b4-dd4b-8ca4-2aa1deb22ed3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
-                                       },
-                                       {
-                                           "artist":  "HAEGIN Co., Ltd.",
-                                           "rank":  8,
-                                           "link":  "https://apps.apple.com/tw/app/%E5%A4%A9%E5%A4%A9%E7%8E%A9%E6%A8%82%E5%9C%92-play-together/id1402384531?uo=2",
-                                           "name":  "天天玩樂園 (Play Together)",
-                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/45/27/ad/4527ad9d-96eb-6a55-3af0-728796554981/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
-                                       },
-                                       {
-                                           "artist":  "Com2uS Corp.",
-                                           "rank":  9,
-                                           "link":  "https://apps.apple.com/tw/app/mlb-9%E5%B1%80%E8%81%B7%E6%A3%92-%E5%8B%81%E6%97%85%E5%B0%8D%E6%B1%BA-26/id1580691683?uo=2",
-                                           "name":  "MLB 9局職棒 勁旅對決 26",
-                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/10/fe/d2/10fed2c3-76b8-1418-b4dc-cbe0ac274b14/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
-                                       },
-                                       {
-                                           "artist":  "YOOZOO (SINGAPORE) PTE. LTD.",
-                                           "rank":  10,
-                                           "link":  "https://apps.apple.com/tw/app/infinity-kingdom/id1487451427?uo=2",
-                                           "name":  "Infinity Kingdom",
-                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d6/0b/15/d60b15ab-c1fa-6a96-86f0-c3c28ac1071a/GameIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png"
-                                       }
-                                   ]
-                     },
-                     {
                          "title":  "iOS 台灣 · 休閒類免費榜",
                          "self":  {
                                       "rank":  67
@@ -447,84 +369,6 @@
                                            "link":  "https://apps.apple.com/tw/app/arrows-puzzle-escape/id6748397500?uo=2",
                                            "name":  "Arrows – Puzzle Escape",
                                            "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4a/2a/32/4a2a329c-7d3d-74c6-1d39-373a32b07027/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
-                                       }
-                                   ]
-                     },
-                     {
-                         "title":  "iOS 台灣 · 休閒類暢銷榜",
-                         "self":  {
-                                      "rank":  60
-                                  },
-                         "items":  [
-                                       {
-                                           "artist":  "Niantic, Inc.",
-                                           "rank":  1,
-                                           "link":  "https://apps.apple.com/tw/app/pikmin-bloom/id1556357398?uo=2",
-                                           "name":  "Pikmin Bloom",
-                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fa/f3/6f/faf36fe7-9e92-ee7e-1e0c-2b076563202f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
-                                       },
-                                       {
-                                           "artist":  "Microfun Limited",
-                                           "rank":  2,
-                                           "link":  "https://apps.apple.com/tw/app/%E7%B7%8B%E8%81%9E%E6%B8%AF%E5%8F%A3-%E5%90%88%E4%BD%B5-%E6%95%85%E4%BA%8B/id1623318294?uo=2",
-                                           "name":  "緋聞港口：合併\u0026故事",
-                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/50/79/49/50794992-7b5c-fc6a-9858-fbf583b6acba/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
-                                       },
-                                       {
-                                           "artist":  "Moon Active",
-                                           "rank":  3,
-                                           "link":  "https://apps.apple.com/tw/app/coin-master/id406889139?uo=2",
-                                           "name":  "Coin Master",
-                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fb/da/f4/fbdaf4f9-4f3d-fa4e-7dd3-ab74ecc2be0d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
-                                       },
-                                       {
-                                           "artist":  "King",
-                                           "rank":  4,
-                                           "link":  "https://apps.apple.com/tw/app/%E7%B3%96%E6%9E%9C%E5%82%B3%E5%A5%87/id553834731?uo=2",
-                                           "name":  "糖果傳奇",
-                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f6/cb/2e/f6cb2eca-45a3-bee4-d022-879d51f87a9c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
-                                       },
-                                       {
-                                           "artist":  "BOGE NETWORK TECHNOLOGY LTD.",
-                                           "rank":  5,
-                                           "link":  "https://apps.apple.com/tw/app/%E5%9A%A6%E5%92%95%E9%BA%BB%E5%B0%87-%E6%88%B0%E7%A5%9E%E8%B3%BD%E7%89%B9-%E9%9B%B7%E7%A5%9E%E4%B9%8B%E9%8C%98-%E8%B6%85%E5%85%AB-%E8%B3%BD%E9%A6%AC-%E9%BA%BB%E5%B0%87-%E9%AD%9A%E6%A9%9F-%E8%80%81%E8%99%8E%E6%A9%9F/id6449517782?uo=2",
-                                           "name":  "嚦咕麻將-戰神賽特、雷神之錘、超八、賽馬、麻將、魚機、老虎機",
-                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bb/1b/ba/bb1bbac4-ef5a-cc4b-5bfe-10917dd803d3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
-                                       },
-                                       {
-                                           "artist":  "Supercell",
-                                           "rank":  6,
-                                           "link":  "https://apps.apple.com/tw/app/%E8%8D%92%E9%87%8E%E4%BA%82%E9%AC%A5/id1229016807?uo=2",
-                                           "name":  "《荒野亂鬥》",
-                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9a/ec/30/9aec30a3-8cd3-bd88-2491-c2c1e0946c4c/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png"
-                                       },
-                                       {
-                                           "artist":  "111%",
-                                           "rank":  7,
-                                           "link":  "https://apps.apple.com/tw/app/%E9%81%8B%E6%B0%A3%E6%8B%9A%E8%BC%B8%E8%B4%8F/id6482291732?uo=2",
-                                           "name":  "運氣拚輸贏",
-                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bc/20/4b/bc204b7b-e077-4421-f5ef-93eb52f1887d/AppIcon-0-0-1x_U007emarketing-0-5-85-220.png/100x100bb.png"
-                                       },
-                                       {
-                                           "artist":  "SuperMagic",
-                                           "rank":  8,
-                                           "link":  "https://apps.apple.com/tw/app/%E5%90%8C%E7%9B%9F%E5%A1%94%E9%98%B2%E6%88%B0-%E4%B8%A6%E8%82%A9%E4%BD%9C%E6%88%B0/id6503702666?uo=2",
-                                           "name":  "同盟塔防戰：並肩作戰",
-                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dd/5a/4b/dd5a4be3-f7f1-334e-ceaa-1f9fb600d3a1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
-                                       },
-                                       {
-                                           "artist":  "Playrix",
-                                           "rank":  9,
-                                           "link":  "https://apps.apple.com/tw/app/%E5%A4%A2%E5%B9%BB%E8%8A%B1%E5%9C%92-gardenscapes/id1105855019?uo=2",
-                                           "name":  "夢幻花園 (Gardenscapes)",
-                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/66/a2/bf/66a2bfb6-ce53-72f3-c86c-be40ca70e245/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
-                                       },
-                                       {
-                                           "artist":  "HABBY",
-                                           "rank":  10,
-                                           "link":  "https://apps.apple.com/tw/app/%E5%BC%93%E7%AE%AD%E5%82%B3%E8%AA%AA2/id6502820653?uo=2",
-                                           "name":  "弓箭傳說2",
-                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/12/fc/0b/12fc0bad-65ae-e8d6-2ac0-f1736cc6ce87/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
                                        }
                                    ]
                      }
