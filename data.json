@@ -1,8 +1,9 @@
 {
-    "updated":  "2026-06-16T02:13:58Z",
+    "updated":  "2026-06-17T00:38:43Z",
     "sources":  [
                     {
-                        "ok":  true,
+                        "ok":  false,
+                        "error":  "無法連接至遠端伺服器",
                         "source":  {
                                        "color":  "#e74c3c",
                                        "url":  "http://www.gamelook.com.cn/feed",
@@ -10,20 +11,7 @@
                                        "id":  "gamelook"
                                    },
                         "items":  [
-                                      {
-                                          "title_zh":  "",
-                                          "title":  "《光遇》下载破3亿次！“宁做毕加索”的陈星汉，选择梵高、在游戏中放大招",
-                                          "link":  "http://www.gamelook.com.cn/2026/06/595534/",
-                                          "desc":  "【GameLook专稿，禁止转载！】 GameLook报道/几年前接受采访时，陈星汉曾说过一句很有名的话： “我宁愿做毕加索，也不要做梵高。” 在他的理解里，毕加索是活着时便获得认...",
-                                          "date":  "Tue, 16 Jun 2026 02:00:02 +0000"
-                                      },
-                                      {
-                                          "title_zh":  "",
-                                          "title":  "鸿蒙游戏生态，已从“树”长成“林”",
-                                          "link":  "http://www.gamelook.com.cn/2026/06/595560/",
-                                          "desc":  "【GameLook专稿，禁止转载！】 GameLook报道/最近两年，国内游戏市场大盘增速放缓，尤其是用户增长已经几乎触顶，在愈发激烈的存量竞争态势下，所有厂商都在寻求新的机会，而...",
-                                          "date":  "Mon, 15 Jun 2026 23:59:53 +0000"
-                                      }
+
                                   ]
                     },
                     {
@@ -37,17 +25,17 @@
                         "items":  [
                                       {
                                           "title_zh":  "",
-                                          "title":  "《追尋者聯盟：英雄之旅》新品節試玩內容搶先看 獨家公開「草莓酒大亨」小壁設計秘辛",
-                                          "link":  "https://gnn.gamer.com.tw/detail.php?sn=306713",
-                                          "desc":  "台灣獨立遊戲團隊赫米兔娛樂宣布，於今（16）日 Steam 新品節推出《追尋者聯盟：英雄之旅》新試玩版，本次試玩除新增多名英雄的額外武裝系統外，更實裝英雄故事、成就和新英雄「草莓酒大亨」小壁，供玩家挑戰與解鎖，製作團隊也獨家公開「小壁」的設計秘辛。\n\n\n\u0026#160;\n\n　　《追尋者聯盟：英雄之旅》是一款基於《追....",
-                                          "date":  "Tue, 16 Jun 2026 10:00:01 +0800"
+                                          "title":  "《靜謐田園》搶先試玩報導 在鄉下農村和禁忌夜晚狹縫間的「昏暗生活」",
+                                          "link":  "https://gnn.gamer.com.tw/detail.php?sn=306782",
+                                          "desc":  "日本一 Software 預定在 2026 年 7 月 30 日推出生活模擬遊戲《靜謐田園（ほの暮しの庭）》（Switch2 / PS5 / Switch / PC），玩家要住進一個留有奇妙規矩的彼津村（彼ヶ津村），和個性獨特的村民交流，渡過每一天的生活。\n\n\u0026#160;\n\n\n\n\n\n\n\n\u0026#160;\n\n　　這次....",
+                                          "date":  "Tue, 16 Jun 2026 19:18:34 +0800"
                                       },
                                       {
                                           "title_zh":  "",
-                                          "title":  "《黎明死線》迎接十週年預告將與《史酷比》《暗黑破壞神》等合作  並透露正探索 1v1、殭屍模式",
-                                          "link":  "https://gnn.gamer.com.tw/detail.php?sn=306706",
-                                          "desc":  "遊戲開發商 Behaviour Interactive 為慶祝旗下生存恐怖遊戲《黎明死線（Dead by Daylight）》上市十週年進行慶生直播，宣布《十三號星期五》電影著名殺人魔傑森預定美國時間 6 月 16 日正式加入遊戲中，同時公開未來的一系列計畫。\n\n\u0026#160;\n\n\n\n\n\n\n\n\n\n\u0026#160;\n\n....",
-                                          "date":  "Mon, 15 Jun 2026 19:43:04 +0800"
+                                          "title":  "密室解謎系列續作《逃脫學院 2：返校囉》Steam 新品節限時試玩 體驗新任務系統",
+                                          "link":  "https://gnn.gamer.com.tw/detail.php?sn=306781",
+                                          "desc":  "開發商 Coin Crew Games 與發行商 iam8bit Presents 宣布，《逃脫學院 2：返校囉》於 6 月 16 日至 6 月 22 日 Steam 新品節期間開放試玩，玩家可以體驗完整的第一章內容，運用任務系統安排課業進度。\n\n\n\u0026#160;\n\n　　《逃脫學院》系列續作《逃脫學院 2：返校囉....",
+                                          "date":  "Tue, 16 Jun 2026 19:16:24 +0800"
                                       }
                                   ]
                     },
@@ -61,18 +49,18 @@
                                    },
                         "items":  [
                                       {
-                                          "title_zh":  "高達 80% 手遊開發者表示玩家參與策略正在失效",
-                                          "title":  "Up to 80% of mobile devs say engagement strategies are losing effectiveness",
-                                          "link":  "https://www.pocketgamer.biz/80-of-mobile-game-developers-say-engagement-strategies-are-losing-effectiveness/",
-                                          "desc":  "Up to 80% of mobile game developers believe the industry\u0027s engagement and retention strategies are becoming stale as 51% struggle to balance monetisation fricti",
-                                          "date":  "Mon, 15 Jun 2026 15:28:00 +0100"
+                                          "title_zh":  "深入了解 FunPlus 的「AI 原生」計畫：與 Chris Petrovic 的對話",
+                                          "title":  "Inside FunPlus\u0027 \"AI-native\" plan with Chris Petrovic",
+                                          "link":  "https://www.pocketgamer.biz/inside-funplus-ai-native-plan-with-chris-petrovic/",
+                                          "desc":  "\"Our goal is to be an AI-native game company,\" said FunPlus\u0027 chief business officer Chris Petrovic during his \u0027Navigating The New Normal\u0027 fireside chat with Poc",
+                                          "date":  "Tue, 16 Jun 2026 15:47:00 +0100"
                                       },
                                       {
-                                          "title_zh":  "EA 推出遊戲內廣告整合平台，開放品牌贊助投放",
-                                          "title":  "EA launches advertising platform for in-game brand integrations",
-                                          "link":  "https://www.pocketgamer.biz/ea-launches-advertising-platform-for-in-game-brand-integrations/",
-                                          "desc":  "Electronic Arts has launched EA Advertising, a new platform designed to help brands connect with players across its portfolio of games.\n\nThe company said EA Adv",
-                                          "date":  "Mon, 15 Jun 2026 15:40:00 +0100"
+                                          "title_zh":  "Ninja Kiwi 如何在旗艦 IP 以外打造多元遊戲品牌組合",
+                                          "title":  "Ninja Kiwi on growing a portfolio beyond its flagship franchise ",
+                                          "link":  "https://www.pocketgamer.biz/ninja-kiwi-on-growing-a-portfolio-beyond-its-flagship-franchise/",
+                                          "desc":  "For most, Ninja Kiwi is synonymous with Bloons. The franchise has grown from its browser-game roots into one of mobile\u0027s most recognisable brands.\n\nBloons TD 6,",
+                                          "date":  "Tue, 16 Jun 2026 15:45:00 +0100"
                                       }
                                   ]
                     },
@@ -86,18 +74,18 @@
                                    },
                         "items":  [
                                       {
-                                          "title_zh":  "5 月手遊營收排行：王者榮耀、Whiteout Survival、Royal Match 等霸榜",
+                                          "title_zh":  "5 月手遊收益榜：王者榮耀、Whiteout Survival、Royal Match 等領銜",
                                           "title":  "May’s top grossing mobile games: Honor of Kings, Whiteout Survival, Royal Match, more",
                                           "link":  "https://mobilegamer.biz/mays-top-grossing-mobile-games-honor-of-kings-whiteout-survival-royal-match-more/",
                                           "desc":  "Last War plummets, Kingshot continues to grow as Brawl Stars, Free Fire Max, Love and Deepspace and Goddess of Victory: Nikke climb the rankings.",
                                           "date":  "Mon, 15 Jun 2026 12:11:19 +0000"
                                       },
                                       {
-                                          "title_zh":  "業餘開發者用 Claude 一夜打造英國 iOS 榜首遊戲",
-                                          "title":  "The UK’s number one iOS game 38-0-0 was built overnight by an amateur using Claude",
-                                          "link":  "https://mobilegamer.biz/the-uks-number-one-ios-game-38-0-0-was-built-overnight-by-an-amateur-using-claude-code/",
-                                          "desc":  "The viral football drafting game is currently beating Fortnite to the top spot on iOS in the UK. Here’s a quick chat with its creator, Deniz Sancar.",
-                                          "date":  "Thu, 11 Jun 2026 13:48:10 +0000"
+                                          "title_zh":  "5 月手遊下載榜：Arrows、Amaze Go、Free Fire、Block Blast 等上榜",
+                                          "title":  "May’s top mobile game downloads: Arrows, Amaze Go, Free Fire, Block Blast and more",
+                                          "link":  "https://mobilegamer.biz/mays-top-mobile-game-downloads-arrows-amaze-go-free-fire-block-blast-and-more/",
+                                          "desc":  "\u0027Arrows\u0027 games take up three of the top ten downloads as Block Blast and Vita Mahjong tail off and Fortnite returns to iOS in Appmagic\u0027s monthly install numbers",
+                                          "date":  "Mon, 15 Jun 2026 10:15:50 +0000"
                                       }
                                   ]
                     },
@@ -111,18 +99,18 @@
                                    },
                         "items":  [
                                       {
-                                          "title_zh":  "Grand Games：兩年從零到 5 億美元的爆發成長之路",
-                                          "title":  "Grand Games from 0$ to $500M in Two Years ",
-                                          "link":  "https://www.deconstructoroffun.com/blog/grand-games-from-0-to-500m-in-two-yearsnbsp",
-                                          "desc":  "Deep Dive into Grand Games’ Success with Batuhan Çelebi",
-                                          "date":  "Mon, 08 Jun 2026 14:38:52 +0000"
-                                      },
-                                      {
-                                          "title_zh":  "亞洲 1,030 億美元遊戲市場，真正的成長在哪裡",
+                                          "title_zh":  "亞洲 1,030 億美元遊戲市場，真正的成長點在哪裡？",
                                           "title":  "Where Asia’s $103 Billion Game Market Is Actually Growing",
                                           "link":  "https://www.deconstructoroffun.com/blog/where-asias-103-billion-game-market-is-actually-growing",
                                           "desc":  "Jen Donahoe\u0027s five takeaways from Niko Partners’ 2026 Market Model.",
                                           "date":  "Mon, 01 Jun 2026 10:42:00 +0000"
+                                      },
+                                      {
+                                          "title_zh":  "Grand Games：兩年內從零到 5 億美元的成長之路",
+                                          "title":  "Grand Games from 0$ to $500M in Two Years ",
+                                          "link":  "https://www.deconstructoroffun.com/blog/grand-games-from-0-to-500m-in-two-yearsnbsp",
+                                          "desc":  "Deep Dive into Grand Games’ Success with Batuhan Çelebi",
+                                          "date":  "Mon, 08 Jun 2026 14:38:52 +0000"
                                       }
                                   ]
                     },
@@ -136,7 +124,7 @@
                                    },
                         "items":  [
                                       {
-                                          "title_zh":  "如何降低流失率，讓玩家持續留玩",
+                                          "title_zh":  "如何降低流失率、讓玩家持續留在遊戲中",
                                           "title":  "How to Reduce Churn and Keep Players Playing",
                                           "link":  "https://naavik.co/podcast/keeping-players-playing/",
                                           "desc":  "Keeping players playing is getting harder as player attention fragments and expectations rise, so understanding churn has become a core live-ops competency. Hos",
@@ -153,24 +141,24 @@
                     }
                 ],
     "insights":  [
-                     "高達 80% 的手遊開發者認為現有玩家參與策略效益下滑，傳統推播與每日打卡機制已趨疲態，需要更強的情感設計來驅動回訪動機。",
-                     "5 月全球手遊營收榜由王者榮耀、Royal Match 等老牌遊戲包辦，顯示「留存力強」遠勝「新奇感」，長線內容維護才是維持排名的關鍵。",
-                     "EA 推出遊戲內品牌廣告整合平台，IAA 與品牌贊助的結合正在成熟，混合營收模式（IAP + IAA + 品牌合作）將成為中型手遊的標準配置。",
-                     "Grand Games 兩年從零到 5 億美元的案例說明：超休閒式玩法 × 社交競技 × 輕量化設計是當前成長最快的細分賽道，純超休閒已明顯式微。",
-                     "亞洲遊戲市場成長集中在東南亞與中東新興市場，日韓趨於飽和，在地化與文化適配策略將成為下一個競爭關鍵。"
+                     "亞洲遊戲市場雖達 1,030 億美元規模，但成長動能正從一線市場轉移至東南亞輕度玩家族群，休閒經營類遊戲具備差異化機會。",
+                     "5 月手遊收益榜持續由策略/混血型遊戲主導（如 Royal Match、Whiteout Survival），顯示「休閒玩法 + 深度留存機制」是高商業化的關鍵組合。",
+                     "降低流失率的核心在於個人化推播時機、合理難度曲線，以及讓玩家每日有明確的「今天完成了什麼」成就感設計。",
+                     "FunPlus 正將 AI 整合進個人化內容與活動排程中，預示中型手遊以 AI 驅動個人化體驗將成為接下來 1-2 年的主流方向。",
+                     "Grand Games 兩年內從零達到 5 億美元規模的案例，說明以單一強核心玩法搭配快速迭代商業化模型，仍是突圍的可行路徑。"
                  ],
     "opportunities":  [
                           {
-                              "detail":  "80% 開發者反映參與策略失效，可將貓咪造咖的每日任務從「打卡式清單」升級為「貓咪個別劇情進度感」，讓任務完成與貓咪感情成長掛鉤，提升情感黏著度而非義務感。",
-                              "title":  "重新設計每日任務的情感鉤子"
+                              "detail":  "根據玩家行為偏好（社交型/收集型/經營型）動態調整任務目標，提升完成率與日活留存。",
+                              "title":  "個人化每日任務設計"
                           },
                           {
-                              "detail":  "EA 廣告平台案例顯示品牌整合廣告正在手遊成熟，貓咪造咖可設計「期間限定聯名主題店」（如與真實咖啡品牌合作），結合限定傢俱與貓咪皮膚，兼顧話題行銷與 IAA 收益。",
-                              "title":  "規劃限時品牌聯名咖啡廳活動"
+                              "detail":  "參考東南亞市場成長趨勢，強化 3-5 分鐘可完成的日常互動（如快速摸貓、拜訪好友送禮），降低流失率。",
+                              "title":  "東南亞輕度玩家短會話體驗優化"
                           },
                           {
-                              "detail":  "榜首遊戲靠強留存維持排名，可為貓咪造咖的付費邊緣玩家設計「貓咪感謝日」——每月固定一天對小戶、中戶送出專屬道具禮包，降低流失並刺激再儲值轉換。",
-                              "title":  "針對小戶～中戶設計留存轉化機制"
+                              "detail":  "將月通行證獎勵與好友協作或限定貓咪裝飾掛鉤，參考 Royal Match 等頭部休閒遊戲的做法，提升付費動機與社群黏著度。",
+                              "title":  "通行證 × 社交獎勵綑綁設計"
                           }
                       ],
     "rankings":  [
@@ -181,60 +169,60 @@
                                   },
                          "items":  [
                                        {
-                                           "artist":  "Century Games Pte. Ltd.",
+                                           "artist":  "ALPSE PTE, LTE.",
                                            "rank":  1,
+                                           "link":  "https://apps.apple.com/tw/app/%E9%9A%8A%E9%95%B7%E5%B0%8F%E7%BF%BC-%E6%88%91%E7%9A%84%E9%BB%83%E9%87%91%E5%8D%81%E4%B8%80%E4%BA%BA-mg11/id6759662874?uo=2",
+                                           "name":  "隊長小翼:我的黃金十一人 MG11",
+                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/67/3f/3e/673f3eca-84d0-af62-d5ec-38dd20aa4ce3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+                                       },
+                                       {
+                                           "artist":  "Century Games Pte. Ltd.",
+                                           "rank":  2,
                                            "link":  "https://apps.apple.com/tw/app/%E5%AF%92%E9%9C%9C%E5%95%9F%E7%A4%BA%E9%8C%84/id6443575749?uo=2",
                                            "name":  "寒霜啟示錄",
                                            "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e5/1e/1d/e51e1db7-4655-6bb8-9441-af76dbfd291c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
                                        },
                                        {
+                                           "artist":  "FLORAL GAMES LIMITED",
+                                           "rank":  3,
+                                           "link":  "https://apps.apple.com/tw/app/%E6%88%91%E7%9A%84%E8%8A%B1%E5%9C%92%E4%B8%96%E7%95%8C/id6751560944?uo=2",
+                                           "name":  "我的花園世界",
+                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5d/b3/4c/5db34c8c-56b4-dd4b-8ca4-2aa1deb22ed3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+                                       },
+                                       {
                                            "artist":  "NEOWIZ",
-                                           "rank":  2,
+                                           "rank":  4,
                                            "link":  "https://apps.apple.com/tw/app/%E8%B2%93%E5%92%AA%E5%92%8C%E6%B9%AF-%E9%AD%94%E6%B3%95%E8%88%87%E7%BE%8E%E9%A3%9F/id6446347021?uo=2",
                                            "name":  "貓咪和湯 : 魔法與美食",
                                            "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1b/bb/ee/1bbbeec6-1a00-36d2-a874-a08e39ef00dd/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
                                        },
                                        {
                                            "artist":  "Happibits",
-                                           "rank":  3,
+                                           "rank":  5,
                                            "link":  "https://apps.apple.com/tw/app/%E6%91%A9%E5%A5%87%E6%96%99%E7%90%86-%E4%B8%BB%E9%A1%8C%E9%A4%90%E5%BB%B3/id1643509748?uo=2",
                                            "name":  "摩奇料理 主題餐廳",
                                            "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f8/7f/27/f87f27de-c5ba-174a-27a1-96e8d17fb25b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
                                        },
                                        {
                                            "artist":  "晓莹 桂",
-                                           "rank":  4,
+                                           "rank":  6,
                                            "link":  "https://apps.apple.com/tw/app/%E9%81%93%E5%8F%8B%E6%8E%9B%E6%A9%9F%E5%97%8E-%E5%A2%A8%E5%B0%81%E5%95%8F%E9%81%93/id6760814211?uo=2",
                                            "name":  "道友掛機嗎 - 墨封問道",
                                            "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/68/3f/50/683f504f-44a9-9fc5-94a6-44118f026208/AppIcon-1x_U007ephone-0-11-0-85-220-0.png/100x100bb.png"
                                        },
                                        {
-                                           "artist":  "FLORAL GAMES LIMITED",
-                                           "rank":  5,
-                                           "link":  "https://apps.apple.com/tw/app/%E6%88%91%E7%9A%84%E8%8A%B1%E5%9C%92%E4%B8%96%E7%95%8C/id6751560944?uo=2",
-                                           "name":  "我的花園世界",
-                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5d/b3/4c/5db34c8c-56b4-dd4b-8ca4-2aa1deb22ed3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
-                                       },
-                                       {
                                            "artist":  "HyperBeard Inc.",
-                                           "rank":  6,
+                                           "rank":  7,
                                            "link":  "https://apps.apple.com/tw/app/pond-pals/id6755534047?uo=2",
                                            "name":  "Pond Pals",
                                            "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ba/38/23/ba3823aa-2f58-8895-d85b-6bbf82581ca5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
                                        },
                                        {
                                            "artist":  "SINGAPORE JUST GAME TECHNOLOGY PTE.LTD.",
-                                           "rank":  7,
+                                           "rank":  8,
                                            "link":  "https://apps.apple.com/tw/app/%E5%8F%AF%E7%8D%84%E4%B8%8D%E5%8F%AF%E5%9B%9A/id6738469826?uo=2",
                                            "name":  "可獄不可囚",
                                            "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f3/b2/41/f3b2418f-93f1-91b0-0518-e49c971da711/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
-                                       },
-                                       {
-                                           "artist":  "Shimmer Games Co., Ltd.",
-                                           "rank":  8,
-                                           "link":  "https://apps.apple.com/tw/app/%E6%88%91%E8%A6%81%E7%95%B6%E6%88%BF%E6%9D%B1/id1618888667?uo=2",
-                                           "name":  "我要當房東",
-                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c5/4c/aa/c54caad9-78a7-57d5-b0cc-0f118da1fea2/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png"
                                        },
                                        {
                                            "artist":  "Gamesofa Inc.",
@@ -244,18 +232,18 @@
                                            "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/51/fd/09/51fd09da-a455-4477-1263-0ca6397e483a/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png"
                                        },
                                        {
-                                           "artist":  "Phantix Games",
+                                           "artist":  "Shimmer Games Co., Ltd.",
                                            "rank":  10,
-                                           "link":  "https://apps.apple.com/tw/app/%E9%87%8E%E8%A0%BB%E7%94%9F%E5%AD%98%E9%8C%84-%E4%BE%8F%E7%BE%85%E7%B4%80/id6737189862?uo=2",
-                                           "name":  "野蠻生存錄：侏羅紀",
-                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/65/38/7d/65387dcc-388e-e7ea-581f-e49419a7e587/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png"
+                                           "link":  "https://apps.apple.com/tw/app/%E6%88%91%E8%A6%81%E7%95%B6%E6%88%BF%E6%9D%B1/id1618888667?uo=2",
+                                           "name":  "我要當房東",
+                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c5/4c/aa/c54caad9-78a7-57d5-b0cc-0f118da1fea2/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png"
                                        }
                                    ]
                      },
                      {
                          "title":  "iOS 台灣 · 休閒類免費榜",
                          "self":  {
-                                      "rank":  42
+                                      "rank":  34
                                   },
                          "items":  [
                                        {
@@ -294,39 +282,39 @@
                                            "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b7/ee/d2/b7eed2d9-d147-bbe5-b8bd-8598f5fd98e9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
                                        },
                                        {
-                                           "artist":  "Hungry Studio",
-                                           "rank":  6,
-                                           "link":  "https://apps.apple.com/tw/app/block-blast/id1617391485?uo=2",
-                                           "name":  "Block Blast!",
-                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e6/d2/9a/e6d29ac8-c0c8-c9a3-4f78-38b849d47532/AppIcon-0-0-1x_U007emarketing-0-11-0-sRGB-85-220.png/100x100bb.png"
-                                       },
-                                       {
                                            "artist":  "Grand Games A.Ş.",
-                                           "rank":  7,
+                                           "rank":  6,
                                            "link":  "https://apps.apple.com/tw/app/block-out-color-sort-puzzle/id6752672568?uo=2",
                                            "name":  "Block Out! - Color Sort Puzzle",
                                            "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c5/4d/f4/c54df4ae-5417-0fb5-908c-6d201883e747/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
                                        },
                                        {
-                                           "artist":  "Supercell",
-                                           "rank":  8,
-                                           "link":  "https://apps.apple.com/tw/app/%E8%8D%92%E9%87%8E%E4%BA%82%E9%AC%A5/id1229016807?uo=2",
-                                           "name":  "《荒野亂鬥》",
-                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9a/ec/30/9aec30a3-8cd3-bd88-2491-c2c1e0946c4c/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png"
+                                           "artist":  "Hungry Studio",
+                                           "rank":  7,
+                                           "link":  "https://apps.apple.com/tw/app/block-blast/id1617391485?uo=2",
+                                           "name":  "Block Blast!",
+                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e6/d2/9a/e6d29ac8-c0c8-c9a3-4f78-38b849d47532/AppIcon-0-0-1x_U007emarketing-0-11-0-sRGB-85-220.png/100x100bb.png"
                                        },
                                        {
-                                           "artist":  "HABBY",
-                                           "rank":  9,
-                                           "link":  "https://apps.apple.com/tw/app/%E9%BB%9E%E9%BB%9E%E8%8B%B1%E9%9B%84-%E9%AA%B0%E5%AD%90%E5%82%B3%E8%AA%AA/id6740966864?uo=2",
-                                           "name":  "點點英雄：骰子傳說",
-                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a7/50/6f/a7506fa2-0d9f-9f6e-70f1-8fb39631fadb/xueguai-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png"
+                                           "artist":  "GOODROID,Inc.",
+                                           "rank":  8,
+                                           "link":  "https://apps.apple.com/tw/app/bus-traffic-fever/id6759763476?uo=2",
+                                           "name":  "Bus Traffic Fever!",
+                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b0/85/8c/b0858cef-e647-671a-19e6-c0d17dd02d45/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png"
                                        },
                                        {
                                            "artist":  "Century Games Pte. Ltd.",
-                                           "rank":  10,
+                                           "rank":  9,
                                            "link":  "https://apps.apple.com/tw/app/%E9%A3%9F%E5%85%89%E6%97%85%E8%A1%8C/id6471045672?uo=2",
                                            "name":  "食光旅行",
                                            "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4a/6c/ee/4a6cee59-fdd6-b5ed-6895-00ba239840b6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+                                       },
+                                       {
+                                           "artist":  "Supercell",
+                                           "rank":  10,
+                                           "link":  "https://apps.apple.com/tw/app/%E8%8D%92%E9%87%8E%E4%BA%82%E9%AC%A5/id1229016807?uo=2",
+                                           "name":  "《荒野亂鬥》",
+                                           "icon":  "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9a/ec/30/9aec30a3-8cd3-bd88-2491-c2c1e0946c4c/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png"
                                        }
                                    ]
                      }
