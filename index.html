@@ -335,6 +335,20 @@
 <script>
 let allData = [];
 let activeFilter = 'all';
+let viewingDate = null; // 目前檢視的日期 (YYYY-MM-DD)，過濾以此為基準
+
+const RECENT_DAYS = 3; // 只顯示近 N 天的早報，更舊的自動隱藏
+
+// 判斷文章是否落在「檢視日往前 RECENT_DAYS 天」的範圍內（含檢視當天）
+// 以檢視日為基準，回看存檔時才不會整頁被清空
+function isRecentDate(dateStr) {
+  if (!dateStr) return true;   // 無日期 → 保留，避免誤刪
+  const d = new Date(dateStr);
+  if (isNaN(d)) return true;   // 日期解析失敗 → 保留
+  const anchor = viewingDate ? new Date(viewingDate + 'T23:59:59') : new Date();
+  const cutoff = new Date(anchor.getFullYear(), anchor.getMonth(), anchor.getDate() - (RECENT_DAYS - 1), 0, 0, 0);
+  return d >= cutoff;
+}
 
 function formatDate(dateStr) {
   if (!dateStr) return '';
@@ -370,8 +384,8 @@ function renderAll() {
 
   for (const result of sources) {
     const s = result.source;
-    const items = (result.ok && result.items) ? result.items : [];
-    if (items.length === 0) continue;   // 當天沒有新文章 → 整個來源隱藏
+    const items = ((result.ok && result.items) ? result.items : []).filter(it => isRecentDate(it.date));
+    if (items.length === 0) continue;   // 近 N 天沒有新文章 → 整個來源隱藏
 
     html += `<div class="source-section">`;
     html += `<div class="section-title">
@@ -445,8 +459,8 @@ function buildFilterBar(sources) {
   const bar = document.getElementById('filter-bar');
   bar.innerHTML = `<button class="filter-btn active" onclick="filterSource('all', this)">全部</button>`;
   sources.forEach(r => {
-    const items = (r.ok && r.items) ? r.items : [];
-    if (items.length === 0) return;   // 沒有新文章的來源不列入篩選鈕
+    const items = ((r.ok && r.items) ? r.items : []).filter(it => isRecentDate(it.date));
+    if (items.length === 0) return;   // 近 N 天沒有新文章的來源不列入篩選鈕
     const s = r.source;
     bar.innerHTML += `<button class="filter-btn" onclick="filterSource('${s.id}', this)">
         <span class="fdot" style="background:${s.color}"></span>${s.name}
@@ -501,6 +515,7 @@ function clearBriefs() {
 async function loadData(dateStr) {
   const today = todayStr();
   const viewing = dateStr || today;
+  viewingDate = viewing;
   const url = (viewing === today) ? 'data.json' : `archive/${viewing}.json`;
   setViewingLabel(viewing, today);
   try {
