@@ -337,7 +337,7 @@ let allData = [];
 let activeFilter = 'all';
 let viewingDate = null; // 目前檢視的日期 (YYYY-MM-DD)，過濾以此為基準
 
-const RECENT_DAYS = 3; // 只顯示近 N 天的早報，更舊的自動隱藏
+const RECENT_DAYS = 1; // 只顯示 N 天內的早報（1 = 只顯示當天），更舊的自動隱藏
 
 // 判斷文章是否落在「檢視日往前 RECENT_DAYS 天」的範圍內（含檢視當天）
 // 以檢視日為基準，回看存檔時才不會整頁被清空
