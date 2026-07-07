@@ -197,15 +197,6 @@
     .rank-self b { color: var(--gold); font-family: var(--serif); font-size: 20px; font-weight: 600; }
     .rank-self.out { color: var(--ink-soft); font-weight: 500; }
 
-    /* date picker */
-    .datepick-wrap { position: relative; display: inline-flex; align-items: center; gap: 10px; }
-    .date-pick { cursor: pointer; border-bottom: 1px dashed currentColor; }
-    .datepick-input { position: absolute; right: 0; top: 120%; width: 1px; height: 1px; opacity: 0; border: 0; padding: 0; }
-    .back-today {
-      cursor: pointer; color: var(--gold); font-weight: 700; letter-spacing: .4px;
-      border-bottom: 1px solid color-mix(in srgb, var(--gold) 45%, transparent);
-    }
-
     /* ---------- CARDS ---------- */
     .cards-grid {
       display: grid; grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
@@ -279,10 +270,8 @@
   <div class="masthead">
     <div class="edition">
       <span>每日市場情報</span>
-      <span class="e-right datepick-wrap">
-        <a class="back-today" id="back-today" style="display:none" onclick="loadData()">↩ 回到今天</a>
-        <span class="date-pick" id="date-display" title="點此選日期，查看過去的早報" onclick="openDatePicker()">載入中…</span>
-        <input type="date" id="datepick" class="datepick-input" onchange="onDateChange(this.value)" />
+      <span class="e-right">
+        <span id="date-display">載入中…</span>
       </span>
     </div>
     <div class="title-row">
@@ -335,20 +324,6 @@
 <script>
 let allData = [];
 let activeFilter = 'all';
-let viewingDate = null; // 目前檢視的日期 (YYYY-MM-DD)，過濾以此為基準
-
-const RECENT_DAYS = 1; // 只顯示 N 天內的早報（1 = 只顯示當天），更舊的自動隱藏
-
-// 判斷文章是否落在「檢視日往前 RECENT_DAYS 天」的範圍內（含檢視當天）
-// 以檢視日為基準，回看存檔時才不會整頁被清空
-function isRecentDate(dateStr) {
-  if (!dateStr) return true;   // 無日期 → 保留，避免誤刪
-  const d = new Date(dateStr);
-  if (isNaN(d)) return true;   // 日期解析失敗 → 保留
-  const anchor = viewingDate ? new Date(viewingDate + 'T23:59:59') : new Date();
-  const cutoff = new Date(anchor.getFullYear(), anchor.getMonth(), anchor.getDate() - (RECENT_DAYS - 1), 0, 0, 0);
-  return d >= cutoff;
-}
 
 function formatDate(dateStr) {
   if (!dateStr) return '';
@@ -384,8 +359,8 @@ function renderAll() {
 
   for (const result of sources) {
     const s = result.source;
-    const items = ((result.ok && result.items) ? result.items : []).filter(it => isRecentDate(it.date));
-    if (items.length === 0) continue;   // 近 N 天沒有新文章 → 整個來源隱藏
+    const items = (result.ok && result.items) ? result.items : [];
+    if (items.length === 0) continue;   // 當天沒有新文章 → 整個來源隱藏
 
     html += `<div class="source-section">`;
     html += `<div class="section-title">
@@ -459,8 +434,8 @@ function buildFilterBar(sources) {
   const bar = document.getElementById('filter-bar');
   bar.innerHTML = `<button class="filter-btn active" onclick="filterSource('all', this)">全部</button>`;
   sources.forEach(r => {
-    const items = ((r.ok && r.items) ? r.items : []).filter(it => isRecentDate(it.date));
-    if (items.length === 0) return;   // 近 N 天沒有新文章的來源不列入篩選鈕
+    const items = (r.ok && r.items) ? r.items : [];
+    if (items.length === 0) return;   // 沒有新文章的來源不列入篩選鈕
     const s = r.source;
     bar.innerHTML += `<button class="filter-btn" onclick="filterSource('${s.id}', this)">
         <span class="fdot" style="background:${s.color}"></span>${s.name}
@@ -478,46 +453,16 @@ function fmtCN(dStr) {
   const dt = new Date(y, m-1, dd);
   return `${y}年 ${String(m).padStart(2,'0')}月 ${String(dd).padStart(2,'0')}日 · 週${weekdays[dt.getDay()]}`;
 }
-function setViewingLabel(viewing, today) {
-  const past = viewing !== today;
-  document.getElementById('date-display').textContent = fmtCN(viewing) + (past ? ' · 存檔' : '');
-  document.getElementById('back-today').style.display = past ? 'inline' : 'none';
-  const dp = document.getElementById('datepick');
-  if (dp) { dp.value = viewing; dp.max = today; }
-}
-
-function openDatePicker() {
-  const dp = document.getElementById('datepick');
-  if (dp.showPicker) { try { dp.showPicker(); return; } catch(e) {} }
-  dp.focus(); dp.click();
-}
-function onDateChange(v) { if (v) loadData(v); }
-
-async function initArchive() {
-  const dp = document.getElementById('datepick');
-  dp.max = todayStr();
-  try {
-    const r = await fetch('archive/index.json?t=' + Date.now());
-    if (r.ok) {
-      const j = await r.json();
-      const dates = (j.dates || []).slice().sort();
-      if (dates.length) dp.min = dates[0];
-    }
-  } catch(e) {}
-}
-
 function clearBriefs() {
   ['insights-box','actions-box'].forEach(id => { const el = document.getElementById(id); if (el) el.style.display = 'none'; });
   const rk = document.getElementById('rankings'); if (rk) rk.innerHTML = '';
   document.getElementById('status-bar').innerHTML = '';
 }
 
-async function loadData(dateStr) {
+async function loadData() {
   const today = todayStr();
-  const viewing = dateStr || today;
-  viewingDate = viewing;
-  const url = (viewing === today) ? 'data.json' : `archive/${viewing}.json`;
-  setViewingLabel(viewing, today);
+  const url = 'data.json';
+  document.getElementById('date-display').textContent = fmtCN(today);
   try {
     let res = await fetch(url + '?t=' + Date.now()).catch(() => null);
     if (!res || !res.ok) res = await fetch(url);
@@ -541,25 +486,15 @@ async function loadData(dateStr) {
     renderAll();
   } catch(e) {
     clearBriefs();
-    if (viewing !== today) {
-      document.getElementById('content').innerHTML =
-        `<div class="global-error">
-          <div class="ge-ico">☘</div>
-          <div class="ge-t">這天還沒有早報</div>
-          <div class="ge-s">${fmtCN(viewing)} 沒有存檔資料。<br>請選擇其他日期，或點右上角「回到今天」。</div>
-        </div>`;
-    } else {
-      document.getElementById('content').innerHTML =
-        `<div class="global-error">
-          <div class="ge-ico">☘</div>
-          <div class="ge-t">尚未有今日資料</div>
-          <div class="ge-s">每天早上 09:00 會自動更新；若還沒看到內容，請稍候再重新整理。</div>
-        </div>`;
-    }
+    document.getElementById('content').innerHTML =
+      `<div class="global-error">
+        <div class="ge-ico">☘</div>
+        <div class="ge-t">尚未有今日資料</div>
+        <div class="ge-s">每天早上 09:00 會自動更新；若還沒看到內容，請稍候再重新整理。</div>
+      </div>`;
   }
 }
 
-initArchive();
 loadData();
 </script>
 
