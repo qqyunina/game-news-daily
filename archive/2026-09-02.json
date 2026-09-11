@@ -1,0 +1,107 @@
+{
+    "sources":  [
+                    {
+                        "ok":  false,
+                        "error":  "無法解析遠端名稱: \u0027www.gamelook.com.cn\u0027",
+                        "source":  {
+                                       "color":  "#e74c3c",
+                                       "url":  "http://www.gamelook.com.cn/feed",
+                                       "name":  "GameLook",
+                                       "id":  "gamelook"
+                                   },
+                        "items":  [
+
+                                  ]
+                    },
+                    {
+                        "ok":  false,
+                        "error":  "無法解析遠端名稱: \u0027gnn.gamer.com.tw\u0027",
+                        "source":  {
+                                       "color":  "#8e44ad",
+                                       "url":  "https://gnn.gamer.com.tw/rss.xml",
+                                       "name":  "巴哈姆特 GNN",
+                                       "id":  "bahamut"
+                                   },
+                        "items":  [
+
+                                  ]
+                    },
+                    {
+                        "ok":  false,
+                        "error":  "無法解析遠端名稱: \u0027www.pocketgamer.biz\u0027",
+                        "source":  {
+                                       "color":  "#2980b9",
+                                       "url":  "https://www.pocketgamer.biz/rss/",
+                                       "name":  "Pocket Gamer Biz",
+                                       "id":  "pocketgamer"
+                                   },
+                        "items":  [
+
+                                  ]
+                    },
+                    {
+                        "ok":  false,
+                        "error":  "無法解析遠端名稱: \u0027mobilegamer.biz\u0027",
+                        "source":  {
+                                       "color":  "#16a085",
+                                       "url":  "https://mobilegamer.biz/feed/",
+                                       "name":  "MobileGamer.biz",
+                                       "id":  "mobilegamer"
+                                   },
+                        "items":  [
+
+                                  ]
+                    },
+                    {
+                        "ok":  false,
+                        "error":  "無法解析遠端名稱: \u0027www.deconstructoroffun.com\u0027",
+                        "source":  {
+                                       "color":  "#27ae60",
+                                       "url":  "https://www.deconstructoroffun.com/blog?format=rss",
+                                       "name":  "Deconstructor of Fun",
+                                       "id":  "dof"
+                                   },
+                        "items":  [
+
+                                  ]
+                    },
+                    {
+                        "ok":  false,
+                        "error":  "無法解析遠端名稱: \u0027naavik.co\u0027",
+                        "source":  {
+                                       "color":  "#d35400",
+                                       "url":  "https://naavik.co/feed/",
+                                       "name":  "Naavik",
+                                       "id":  "naavik"
+                                   },
+                        "items":  [
+
+                                  ]
+                    }
+                ],
+    "opportunities":  [
+                          {
+                              "detail":  "參考中國小遊戲市場的免安裝、社交裂變導流模式，評估在貓咪造咖既有社交系統中加入可分享、可邀請的輕量小活動，降低獲客成本並提升自然傳播。",
+                              "title":  "輕量化社交裂變玩法試驗"
+                          },
+                          {
+                              "detail":  "借鏡中東市場「三人格系統＋majlis優先」的留存思路，檢視貓咪造咖的好友/公會互動場景是否能設計成更貼近女性玩家日常社交習慣的「聚會式」輕互動，強化黏著度而非單純簽到。",
+                              "title":  "以majlis式聚會邏輯優化好友互動設計"
+                          },
+                          {
+                              "detail":  "順應創作者驅動成長與AI微劇熱潮，規劃可截取的高反差、可二創的遊戲內容片段（如貓咪造型、劇情小劇場），供KOC/UGC在短影音平台傳播，作為低成本獲客與品牌曝光渠道。",
+                              "title":  "短影音／創作者內容導流佈局"
+                          }
+                      ],
+    "insights":  [
+                     "Google Play正式宣布30%抽成時代結束，開發者可用第三方支付降低分潤，但平台仍握有推薦權重的隱性籌碼，商業化策略要同時顧到明面分潤與流量曝光。",
+                     "中國小遊戲（微信/抖音小程序遊戲）市場持續爆發成長，輕量化、免安裝、社交裂變的產品形態正在吃掉傳統App遊戲的獲客紅利，值得觀察其導流機制能否複製到重度App市場。",
+                     "DoF數據分析顯示Merge-2（合成類）在商業化效率上不一定贏過傳統三消Match-3，玩法熱度與變現效率是兩件事，選核心玩法時不能只看話題度。",
+                     "中東PM Wolf Qanawat分享用「三人格系統」與majlis（社交聚會）文化設計降低流失率，說明因地制宜的社交機制設計比通用留存公版更有效。",
+                     "創作者驅動成長（Creator-Led Growth）與AI微劇熱潮持續升溫，短影音內容正成為遊戲曝光與轉化的新戰場，尤其對女性向、生活化題材的產品更具紅利。"
+                 ],
+    "updated":  "2026-09-02T02:04:08Z",
+    "rankings":  [
+
+                 ]
+}
